@@ -1,4 +1,0 @@
-db_user: ecomuser
-db_user_password: ecompassword
-db_name: ecomdb
-firewall_port: 3306/tcp
