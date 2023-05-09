@@ -18,7 +18,7 @@ $
 
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1683620094,,"wq!"
+|2,0,1683620693,,"wq!"
 :q!
 |2,0,1683618324,,"q!"
 
@@ -202,21 +202,21 @@ $
 
 # File marks:
 '0  2  0  ~/.gitignore
-|4,48,2,0,1683620094,"~/.gitignore"
-'1  7  0  ~/role-test/roles
-|4,49,7,0,1683619035,"~/role-test/roles"
-'2  16  0  ~/role-test/roles/mariadb_db/tasks/main.yml
-|4,50,16,0,1683618324,"~/role-test/roles/mariadb_db/tasks/main.yml"
-'3  21  48  ~/role-test/roles/apache_web/tasks/main.yml
-|4,51,21,48,1683618252,"~/role-test/roles/apache_web/tasks/main.yml"
-'4  13  30  ~/role-test/roles/firewalld/tasks/main.yml
-|4,52,13,30,1683618186,"~/role-test/roles/firewalld/tasks/main.yml"
-'5  4  22  ~/role-test/host_vars/mariadb1.yml
-|4,53,4,22,1683618122,"~/role-test/host_vars/mariadb1.yml"
-'6  21  45  ~/role-test/roles/apache_web/tasks/main.yml
-|4,54,21,45,1683617533,"~/role-test/roles/apache_web/tasks/main.yml"
-'7  1  0  ~/role-test/roles/apache_web/tasks/main.yml
-|4,55,1,0,1683616355,"~/role-test/roles/apache_web/tasks/main.yml"
+|4,48,2,0,1683620693,"~/.gitignore"
+'1  2  0  ~/.gitignore
+|4,49,2,0,1683620094,"~/.gitignore"
+'2  7  0  ~/role-test/roles
+|4,50,7,0,1683619035,"~/role-test/roles"
+'3  16  0  ~/role-test/roles/mariadb_db/tasks/main.yml
+|4,51,16,0,1683618324,"~/role-test/roles/mariadb_db/tasks/main.yml"
+'4  21  48  ~/role-test/roles/apache_web/tasks/main.yml
+|4,52,21,48,1683618252,"~/role-test/roles/apache_web/tasks/main.yml"
+'5  13  30  ~/role-test/roles/firewalld/tasks/main.yml
+|4,53,13,30,1683618186,"~/role-test/roles/firewalld/tasks/main.yml"
+'6  4  22  ~/role-test/host_vars/mariadb1.yml
+|4,54,4,22,1683618122,"~/role-test/host_vars/mariadb1.yml"
+'7  21  45  ~/role-test/roles/apache_web/tasks/main.yml
+|4,55,21,45,1683617533,"~/role-test/roles/apache_web/tasks/main.yml"
 '8  1  0  ~/role-test/roles/apache_web/tasks/main.yml
 |4,56,1,0,1683616355,"~/role-test/roles/apache_web/tasks/main.yml"
 '9  1  0  ~/role-test/roles/apache_web/tasks/main.yml
@@ -224,17 +224,33 @@ $
 
 # Jumplist (newest first):
 -'  2  0  ~/.gitignore
+|4,39,2,0,1683620693,"~/.gitignore"
+-'  2  0  ~/.gitignore
 |4,39,2,0,1683620094,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1683620089,"~/.gitignore"
 -'  1  0  ~/.gitignore
 |4,39,1,0,1683620089,"~/.gitignore"
 -'  7  0  ~/role-test/roles
 |4,39,7,0,1683619035,"~/role-test/roles"
 -'  7  0  ~/role-test/roles
 |4,39,7,0,1683619035,"~/role-test/roles"
+-'  7  0  ~/role-test/roles
+|4,39,7,0,1683619035,"~/role-test/roles"
+-'  7  0  ~/role-test/roles
+|4,39,7,0,1683619035,"~/role-test/roles"
 -'  16  0  ~/role-test/roles/mariadb_db/tasks/main.yml
 |4,39,16,0,1683618324,"~/role-test/roles/mariadb_db/tasks/main.yml"
 -'  16  0  ~/role-test/roles/mariadb_db/tasks/main.yml
 |4,39,16,0,1683618324,"~/role-test/roles/mariadb_db/tasks/main.yml"
+-'  16  0  ~/role-test/roles/mariadb_db/tasks/main.yml
+|4,39,16,0,1683618324,"~/role-test/roles/mariadb_db/tasks/main.yml"
+-'  16  0  ~/role-test/roles/mariadb_db/tasks/main.yml
+|4,39,16,0,1683618324,"~/role-test/roles/mariadb_db/tasks/main.yml"
+-'  1  0  ~/role-test/roles/mariadb_db/tasks/main.yml
+|4,39,1,0,1683618287,"~/role-test/roles/mariadb_db/tasks/main.yml"
+-'  1  0  ~/role-test/roles/mariadb_db/tasks/main.yml
+|4,39,1,0,1683618287,"~/role-test/roles/mariadb_db/tasks/main.yml"
 -'  1  0  ~/role-test/roles/mariadb_db/tasks/main.yml
 |4,39,1,0,1683618287,"~/role-test/roles/mariadb_db/tasks/main.yml"
 -'  1  0  ~/role-test/roles/mariadb_db/tasks/main.yml
@@ -247,6 +263,22 @@ $
 |4,39,21,48,1683618252,"~/role-test/roles/apache_web/tasks/main.yml"
 -'  21  48  ~/role-test/roles/apache_web/tasks/main.yml
 |4,39,21,48,1683618252,"~/role-test/roles/apache_web/tasks/main.yml"
+-'  21  48  ~/role-test/roles/apache_web/tasks/main.yml
+|4,39,21,48,1683618252,"~/role-test/roles/apache_web/tasks/main.yml"
+-'  21  48  ~/role-test/roles/apache_web/tasks/main.yml
+|4,39,21,48,1683618252,"~/role-test/roles/apache_web/tasks/main.yml"
+-'  21  48  ~/role-test/roles/apache_web/tasks/main.yml
+|4,39,21,48,1683618252,"~/role-test/roles/apache_web/tasks/main.yml"
+-'  21  48  ~/role-test/roles/apache_web/tasks/main.yml
+|4,39,21,48,1683618252,"~/role-test/roles/apache_web/tasks/main.yml"
+-'  8  0  ~/role-test
+|4,39,8,0,1683618193,"~/role-test"
+-'  1  0  ~/role-test
+|4,39,1,0,1683618193,"~/role-test"
+-'  8  0  ~/role-test
+|4,39,8,0,1683618193,"~/role-test"
+-'  1  0  ~/role-test
+|4,39,1,0,1683618193,"~/role-test"
 -'  8  0  ~/role-test
 |4,39,8,0,1683618193,"~/role-test"
 -'  1  0  ~/role-test
@@ -275,6 +307,46 @@ $
 |4,39,13,30,1683618186,"~/role-test/roles/firewalld/tasks/main.yml"
 -'  13  30  ~/role-test/roles/firewalld/tasks/main.yml
 |4,39,13,30,1683618186,"~/role-test/roles/firewalld/tasks/main.yml"
+-'  13  30  ~/role-test/roles/firewalld/tasks/main.yml
+|4,39,13,30,1683618186,"~/role-test/roles/firewalld/tasks/main.yml"
+-'  13  30  ~/role-test/roles/firewalld/tasks/main.yml
+|4,39,13,30,1683618186,"~/role-test/roles/firewalld/tasks/main.yml"
+-'  13  30  ~/role-test/roles/firewalld/tasks/main.yml
+|4,39,13,30,1683618186,"~/role-test/roles/firewalld/tasks/main.yml"
+-'  13  30  ~/role-test/roles/firewalld/tasks/main.yml
+|4,39,13,30,1683618186,"~/role-test/roles/firewalld/tasks/main.yml"
+-'  13  30  ~/role-test/roles/firewalld/tasks/main.yml
+|4,39,13,30,1683618186,"~/role-test/roles/firewalld/tasks/main.yml"
+-'  13  30  ~/role-test/roles/firewalld/tasks/main.yml
+|4,39,13,30,1683618186,"~/role-test/roles/firewalld/tasks/main.yml"
+-'  13  30  ~/role-test/roles/firewalld/tasks/main.yml
+|4,39,13,30,1683618186,"~/role-test/roles/firewalld/tasks/main.yml"
+-'  13  30  ~/role-test/roles/firewalld/tasks/main.yml
+|4,39,13,30,1683618186,"~/role-test/roles/firewalld/tasks/main.yml"
+-'  13  30  ~/role-test/roles/firewalld/tasks/main.yml
+|4,39,13,30,1683618186,"~/role-test/roles/firewalld/tasks/main.yml"
+-'  13  30  ~/role-test/roles/firewalld/tasks/main.yml
+|4,39,13,30,1683618186,"~/role-test/roles/firewalld/tasks/main.yml"
+-'  4  22  ~/role-test/host_vars/mariadb1.yml
+|4,39,4,22,1683618122,"~/role-test/host_vars/mariadb1.yml"
+-'  4  22  ~/role-test/host_vars/mariadb1.yml
+|4,39,4,22,1683618122,"~/role-test/host_vars/mariadb1.yml"
+-'  4  22  ~/role-test/host_vars/mariadb1.yml
+|4,39,4,22,1683618122,"~/role-test/host_vars/mariadb1.yml"
+-'  4  22  ~/role-test/host_vars/mariadb1.yml
+|4,39,4,22,1683618122,"~/role-test/host_vars/mariadb1.yml"
+-'  4  22  ~/role-test/host_vars/mariadb1.yml
+|4,39,4,22,1683618122,"~/role-test/host_vars/mariadb1.yml"
+-'  4  22  ~/role-test/host_vars/mariadb1.yml
+|4,39,4,22,1683618122,"~/role-test/host_vars/mariadb1.yml"
+-'  4  22  ~/role-test/host_vars/mariadb1.yml
+|4,39,4,22,1683618122,"~/role-test/host_vars/mariadb1.yml"
+-'  4  22  ~/role-test/host_vars/mariadb1.yml
+|4,39,4,22,1683618122,"~/role-test/host_vars/mariadb1.yml"
+-'  4  22  ~/role-test/host_vars/mariadb1.yml
+|4,39,4,22,1683618122,"~/role-test/host_vars/mariadb1.yml"
+-'  4  22  ~/role-test/host_vars/mariadb1.yml
+|4,39,4,22,1683618122,"~/role-test/host_vars/mariadb1.yml"
 -'  4  22  ~/role-test/host_vars/mariadb1.yml
 |4,39,4,22,1683618122,"~/role-test/host_vars/mariadb1.yml"
 -'  4  22  ~/role-test/host_vars/mariadb1.yml
@@ -315,6 +387,26 @@ $
 |4,39,1,0,1683618068,"~/role-test/roles/firewalld/tasks/main.yml"
 -'  1  0  ~/role-test/roles/firewalld/tasks/main.yml
 |4,39,1,0,1683618068,"~/role-test/roles/firewalld/tasks/main.yml"
+-'  1  0  ~/role-test/roles/firewalld/tasks/main.yml
+|4,39,1,0,1683618068,"~/role-test/roles/firewalld/tasks/main.yml"
+-'  1  0  ~/role-test/roles/firewalld/tasks/main.yml
+|4,39,1,0,1683618068,"~/role-test/roles/firewalld/tasks/main.yml"
+-'  1  0  ~/role-test/roles/firewalld/tasks/main.yml
+|4,39,1,0,1683618068,"~/role-test/roles/firewalld/tasks/main.yml"
+-'  1  0  ~/role-test/roles/firewalld/tasks/main.yml
+|4,39,1,0,1683618068,"~/role-test/roles/firewalld/tasks/main.yml"
+-'  1  0  ~/role-test/roles/firewalld/tasks/main.yml
+|4,39,1,0,1683618068,"~/role-test/roles/firewalld/tasks/main.yml"
+-'  1  0  ~/role-test/roles/firewalld/tasks/main.yml
+|4,39,1,0,1683618068,"~/role-test/roles/firewalld/tasks/main.yml"
+-'  1  0  ~/role-test/roles/firewalld/tasks/main.yml
+|4,39,1,0,1683618068,"~/role-test/roles/firewalld/tasks/main.yml"
+-'  1  0  ~/role-test/roles/firewalld/tasks/main.yml
+|4,39,1,0,1683618068,"~/role-test/roles/firewalld/tasks/main.yml"
+-'  1  0  ~/role-test/roles/firewalld/tasks/main.yml
+|4,39,1,0,1683618068,"~/role-test/roles/firewalld/tasks/main.yml"
+-'  1  0  ~/role-test/roles/firewalld/tasks/main.yml
+|4,39,1,0,1683618068,"~/role-test/roles/firewalld/tasks/main.yml"
 -'  1  0  ~/role-test/host_vars/mariadb1.yml
 |4,39,1,0,1683618025,"~/role-test/host_vars/mariadb1.yml"
 -'  1  0  ~/role-test/host_vars/mariadb1.yml
@@ -331,103 +423,11 @@ $
 |4,39,1,0,1683618025,"~/role-test/host_vars/mariadb1.yml"
 -'  1  0  ~/role-test/host_vars/mariadb1.yml
 |4,39,1,0,1683618025,"~/role-test/host_vars/mariadb1.yml"
--'  1  0  ~/role-test/host_vars/mariadb1.yml
-|4,39,1,0,1683618025,"~/role-test/host_vars/mariadb1.yml"
--'  1  0  ~/role-test/host_vars/mariadb1.yml
-|4,39,1,0,1683618025,"~/role-test/host_vars/mariadb1.yml"
--'  21  45  ~/role-test/roles/apache_web/tasks/main.yml
-|4,39,21,45,1683617533,"~/role-test/roles/apache_web/tasks/main.yml"
--'  21  45  ~/role-test/roles/apache_web/tasks/main.yml
-|4,39,21,45,1683617533,"~/role-test/roles/apache_web/tasks/main.yml"
--'  21  45  ~/role-test/roles/apache_web/tasks/main.yml
-|4,39,21,45,1683617533,"~/role-test/roles/apache_web/tasks/main.yml"
--'  21  45  ~/role-test/roles/apache_web/tasks/main.yml
-|4,39,21,45,1683617533,"~/role-test/roles/apache_web/tasks/main.yml"
--'  21  45  ~/role-test/roles/apache_web/tasks/main.yml
-|4,39,21,45,1683617533,"~/role-test/roles/apache_web/tasks/main.yml"
--'  21  45  ~/role-test/roles/apache_web/tasks/main.yml
-|4,39,21,45,1683617533,"~/role-test/roles/apache_web/tasks/main.yml"
--'  21  45  ~/role-test/roles/apache_web/tasks/main.yml
-|4,39,21,45,1683617533,"~/role-test/roles/apache_web/tasks/main.yml"
--'  21  45  ~/role-test/roles/apache_web/tasks/main.yml
-|4,39,21,45,1683617533,"~/role-test/roles/apache_web/tasks/main.yml"
--'  21  45  ~/role-test/roles/apache_web/tasks/main.yml
-|4,39,21,45,1683617533,"~/role-test/roles/apache_web/tasks/main.yml"
--'  21  45  ~/role-test/roles/apache_web/tasks/main.yml
-|4,39,21,45,1683617533,"~/role-test/roles/apache_web/tasks/main.yml"
--'  21  45  ~/role-test/roles/apache_web/tasks/main.yml
-|4,39,21,45,1683617533,"~/role-test/roles/apache_web/tasks/main.yml"
--'  21  45  ~/role-test/roles/apache_web/tasks/main.yml
-|4,39,21,45,1683617533,"~/role-test/roles/apache_web/tasks/main.yml"
--'  21  45  ~/role-test/roles/apache_web/tasks/main.yml
-|4,39,21,45,1683617533,"~/role-test/roles/apache_web/tasks/main.yml"
--'  21  45  ~/role-test/roles/apache_web/tasks/main.yml
-|4,39,21,45,1683617533,"~/role-test/roles/apache_web/tasks/main.yml"
--'  21  45  ~/role-test/roles/apache_web/tasks/main.yml
-|4,39,21,45,1683617533,"~/role-test/roles/apache_web/tasks/main.yml"
--'  21  45  ~/role-test/roles/apache_web/tasks/main.yml
-|4,39,21,45,1683617533,"~/role-test/roles/apache_web/tasks/main.yml"
--'  21  45  ~/role-test/roles/apache_web/tasks/main.yml
-|4,39,21,45,1683617533,"~/role-test/roles/apache_web/tasks/main.yml"
--'  21  45  ~/role-test/roles/apache_web/tasks/main.yml
-|4,39,21,45,1683617533,"~/role-test/roles/apache_web/tasks/main.yml"
--'  1  0  ~/role-test/roles/apache_web/tasks/main.yml
-|4,39,1,0,1683617513,"~/role-test/roles/apache_web/tasks/main.yml"
--'  1  0  ~/role-test/roles/apache_web/tasks/main.yml
-|4,39,1,0,1683617513,"~/role-test/roles/apache_web/tasks/main.yml"
--'  1  0  ~/role-test/roles/apache_web/tasks/main.yml
-|4,39,1,0,1683617513,"~/role-test/roles/apache_web/tasks/main.yml"
--'  1  0  ~/role-test/roles/apache_web/tasks/main.yml
-|4,39,1,0,1683617513,"~/role-test/roles/apache_web/tasks/main.yml"
--'  1  0  ~/role-test/roles/apache_web/tasks/main.yml
-|4,39,1,0,1683617513,"~/role-test/roles/apache_web/tasks/main.yml"
--'  1  0  ~/role-test/roles/apache_web/tasks/main.yml
-|4,39,1,0,1683617513,"~/role-test/roles/apache_web/tasks/main.yml"
--'  1  0  ~/role-test/roles/apache_web/tasks/main.yml
-|4,39,1,0,1683617513,"~/role-test/roles/apache_web/tasks/main.yml"
--'  1  0  ~/role-test/roles/apache_web/tasks/main.yml
-|4,39,1,0,1683617513,"~/role-test/roles/apache_web/tasks/main.yml"
--'  1  0  ~/role-test/roles/apache_web/tasks/main.yml
-|4,39,1,0,1683617513,"~/role-test/roles/apache_web/tasks/main.yml"
--'  1  0  ~/role-test/roles/apache_web/tasks/main.yml
-|4,39,1,0,1683617513,"~/role-test/roles/apache_web/tasks/main.yml"
--'  1  0  ~/role-test/roles/apache_web/tasks/main.yml
-|4,39,1,0,1683617513,"~/role-test/roles/apache_web/tasks/main.yml"
--'  1  0  ~/role-test/roles/apache_web/tasks/main.yml
-|4,39,1,0,1683617513,"~/role-test/roles/apache_web/tasks/main.yml"
--'  1  0  ~/role-test/roles/apache_web/tasks/main.yml
-|4,39,1,0,1683617513,"~/role-test/roles/apache_web/tasks/main.yml"
--'  1  0  ~/role-test/roles/apache_web/tasks/main.yml
-|4,39,1,0,1683617513,"~/role-test/roles/apache_web/tasks/main.yml"
--'  1  0  ~/role-test/roles/apache_web/tasks/main.yml
-|4,39,1,0,1683617513,"~/role-test/roles/apache_web/tasks/main.yml"
--'  1  0  ~/role-test/roles/apache_web/tasks/main.yml
-|4,39,1,0,1683617513,"~/role-test/roles/apache_web/tasks/main.yml"
--'  1  0  ~/role-test/roles/apache_web/tasks/main.yml
-|4,39,1,0,1683617513,"~/role-test/roles/apache_web/tasks/main.yml"
--'  1  0  ~/role-test/roles/apache_web/tasks/main.yml
-|4,39,1,0,1683617513,"~/role-test/roles/apache_web/tasks/main.yml"
--'  1  0  ~/role-test/roles/apache_web/tasks/main.yml
-|4,39,1,0,1683617513,"~/role-test/roles/apache_web/tasks/main.yml"
--'  1  0  ~/role-test/roles/apache_web/tasks/main.yml
-|4,39,1,0,1683617513,"~/role-test/roles/apache_web/tasks/main.yml"
--'  1  0  ~/role-test/roles/apache_web/tasks/main.yml
-|4,39,1,0,1683617513,"~/role-test/roles/apache_web/tasks/main.yml"
--'  1  0  ~/role-test/roles/apache_web/tasks/main.yml
-|4,39,1,0,1683617513,"~/role-test/roles/apache_web/tasks/main.yml"
--'  1  0  ~/role-test/roles/apache_web/tasks/main.yml
-|4,39,1,0,1683616355,"~/role-test/roles/apache_web/tasks/main.yml"
--'  1  0  ~/role-test/roles/apache_web/tasks/main.yml
-|4,39,1,0,1683616355,"~/role-test/roles/apache_web/tasks/main.yml"
--'  1  0  ~/role-test/roles/apache_web/tasks/main.yml
-|4,39,1,0,1683616355,"~/role-test/roles/apache_web/tasks/main.yml"
--'  1  0  ~/role-test/roles/apache_web/tasks/main.yml
-|4,39,1,0,1683616355,"~/role-test/roles/apache_web/tasks/main.yml"
 
 # History of marks within files (newest to oldest):
 
 > ~/.gitignore
-	*	1683620092	0
+	*	1683620690	0
 	"	2	0
 	^	2	0
 	.	1	23
