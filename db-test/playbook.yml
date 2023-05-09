@@ -1,0 +1,114 @@
+---
+- name: mariadb
+  hosts: mariadb
+  become: true
+  tasks:
+    - name: install firewall
+      yum:
+        name: firewalld
+        state: latest
+    - name: service firewall
+      service:
+        name: firewalld
+        state: started
+        enabled: yes
+    - name: install mariadb
+      yum:
+        name: mariadb-server
+        state: latest
+    - name: start mariadb
+      service:
+        name: mariadb
+        state: started
+        enabled: yes
+
+    - name: firewall 3306port
+      firewalld:
+        port: 3306/tcp
+        permanent: true
+        zone: public
+        immediate: true
+        state: enabled
+    - name: install mysql-python
+      yum:
+        name:
+          - python3-pip
+          - MySQL-python
+
+    
+
+    - name: create user
+      mysql_user:
+        name: ecomuser
+        password: ecompassword
+        state: present
+        priv: '*.*:ALL'
+        host: '%'
+    - name: create db
+      mysql_db:
+        name: ecomdb
+        state: present
+    - name: file copy
+      copy:
+        src: /home/ec2-user/db-test/db-load-script.sql
+        dest: /home/ec2-user/sql/db-load-script.sql
+
+    - name: query db
+      mysql_db:
+        name: ecomdb
+        state: import
+        target: /home/ec2-user/sql/db-load-script.sql
+    
+
+
+- name: web server
+  hosts: web_servers
+  become: true
+  tasks:
+    - name: install httpd
+      yum:
+        name: httpd
+        state: latest
+    - name: install php
+      yum:
+        name: php
+        state: latest
+    - name: install php-mysql
+      yum:
+        name: php-mysql
+        state: latest
+    - name: install firewalld
+      yum:
+        name: firewalld
+        state: latest
+    - name: start firewalld
+      service:
+        name: firewalld
+        state: started
+        enabled: yes
+    - name: firewall 80port
+      firewalld:
+        port: 80/tcp
+        permanent: true
+        zone: public
+        immediate: true
+        state: enabled
+    - name: start httpd
+      service:
+        name: httpd
+        state: started
+        enabled: yes
+    - name: install git
+      yum:
+        name: git
+        state: latest 
+    - name: clone git
+      git:
+        repo: https://github.com/kodekloudhub/learning-app-ecommerce.git
+        dest: /var/www/html
+        force: true
+    - name: set db server
+      command: sed -i 's/172.20.1.101/43.207.220.203/g' /var/www/html/index.php
+    
+        
+

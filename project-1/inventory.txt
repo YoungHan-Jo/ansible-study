@@ -1,0 +1,10 @@
+target1 ansible_host=43.207.135.49 
+target2 ansible_host=176.34.38.79 
+
+[node:vars]
+ansible_user=ec2-user 
+ansible_ssh_private_key_file=/home/ec2-user/keypair/ansible_key.pem
+
+[node]
+target1
+target2
