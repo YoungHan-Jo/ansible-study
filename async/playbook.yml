@@ -1,0 +1,26 @@
+---
+- hosts: localhost
+  tasks:
+    - name: run a async task1
+      shell: 'sleep 10; echo "hello world1"'
+      async: 30
+      poll: 0
+      register: task1_result
+
+    - name: run a async task2
+      shell: 'sleep 20; echo "hello world2"'
+      async: 30
+      poll: 0
+      register: task2_result
+
+    - name: check status of task1
+      async_status: jid={{ task1_result.ansible_job_id }}
+      register: job_result
+      until: job_result.finished
+      retries: 30
+
+    - name: check status of task2
+      async_status: jid={{ task2_result.ansible_job_id }}
+      register: job_result
+      until: job_result.finished
+      retries: 30

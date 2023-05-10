@@ -540,3 +540,118 @@ ls
 cat roles/firewalld/tasks/main.yml 
 cat roles/apache_web/tasks/main.yml 
 sudo ansible-playbook playbook.yml -i inventory.txt 
+sudo yum install -y git
+ls
+git init
+git add .
+ls
+git commit -m 'ansible'
+git config --global user.email "verin4494@gmail.com"
+git config --global user.name "younghan-jo"
+git commit -m 'ansible'
+git remote add origin https://github.com/YoungHan-Jo/ansible-study.git
+ls
+ls -a
+git remote -v
+git push -u origin master
+ls
+mv inventory.txt sample_inventory.txt
+ls
+mv db-test migration_ansible
+ls
+mv seperate-test seperate_tasks
+mv role-test seperate_roles
+ls
+git commit -m 'ansible'
+git status
+git add *
+git status
+git commit -m 'ansible'
+git push
+git config --unset credential.helper
+git config credential.helper store
+ls
+cd keypair/
+ls
+ls -a
+cd ..
+ls -a
+ls
+touch .gitignore
+ls
+cd -s
+ls -a
+sudo .gitignore
+sudo vi .gitignore 
+ls
+git status
+git add *
+git commit -m 'ignore'
+git status
+git add *
+git commit -m 'ignore'
+git status
+git add *
+cd keypair/
+ls
+cd ..
+vi .gitignore
+ls
+git add *
+git status
+ls
+git push
+git add *
+git status
+git add .gitignore
+git status
+git add .*
+git add .git-credentials
+git add .gitconfig
+ls
+git add *
+git status
+git rm *
+ls
+git status
+git deleted *
+ls
+git restore *
+git status
+git add -A
+git status
+git commit -m 'ignore'
+git push
+ls
+git remove keypair
+ls
+git status
+git rm -r keypair/
+git rm --cached -r keypair/
+ls
+git status
+git restore *
+ls
+git status
+git restore --staged keypair/
+ls
+git status
+ls
+git restore keypair/ansible_key.pem
+ls
+git status
+ls
+cat keypair/ansible_key.pem 
+ls
+git rm --cached -r keypair/
+ls
+vi .gitignore
+git status
+git add -A
+git status
+git commit 'ignore key'
+git commit -m 'ignore key'
+git push
+git config --unset credential.helper
+git config credential.helper store
+git push
