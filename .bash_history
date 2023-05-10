@@ -702,3 +702,33 @@ git push
 git fetch
 git merge origin/master
 git push
+ls
+cd test-project/
+ls
+cd ..
+rm -r test-project/
+ls
+cd project-1/
+ls
+cd ..
+ls
+mv -r project-1/ ping-test
+mv project-1/ ping-test
+ls
+cd web_deployment/
+ls
+cat playbook.yml 
+cd ..
+rm -r web_deployment/
+ls
+mv async async-test
+ls
+git status
+git add -A
+git status
+git commit
+git push
+git status
+git add -A
+git commit -m 'clean up'
+git push

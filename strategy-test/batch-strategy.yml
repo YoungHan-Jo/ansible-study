@@ -1,0 +1,9 @@
+---
+- name: Strategy test
+  serial: 30%
+  hosts: nodes
+  tasks:
+    - name: Task1
+      ping:
+    - name: Task2
+      shell: 'sleep 2; echo "hello world"'
