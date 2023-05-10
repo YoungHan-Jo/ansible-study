@@ -655,3 +655,20 @@ git push
 git config --unset credential.helper
 git config credential.helper store
 git push
+ls
+cd async/
+ls
+cat playbook.yml 
+vi playbook.yml 
+cd ..
+ls
+git status
+git add *
+git status
+git add -A
+git status
+git commit -m 'asynchronous'
+git push
+git status
+sudo git push
+ls
