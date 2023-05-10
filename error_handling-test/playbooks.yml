@@ -1,0 +1,12 @@
+---
+- name: Error handling
+  hosts: localhost
+  tasks:
+    - name: Ignore error
+      command: cat not_exsisting.txt
+      ignore_errors: yes
+    
+    - name: fail playbook
+      command: cat error.txt
+      register: command_output
+      failed_when: "'ERROR' in command_output.stdout"

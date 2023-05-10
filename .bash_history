@@ -732,3 +732,49 @@ git status
 git add -A
 git commit -m 'clean up'
 git push
+ls
+mkdir strategy-test
+cp sample_inventory.txt strategy-test/inventory.txt
+cd strategy-test/
+ls
+vi playbook.yml
+vi inventory.txt 
+vi playbook.yml
+vi inventory.txt 
+vi playbook.yml 
+sudo ansible-playbook playbook.yml -i inventory.txt 
+cat inventory.txt 
+cd ..
+vi sample_inventory.txt 
+cd strategy-test/
+ls
+cat inventory.txt 
+vi inventory.txt 
+vi playbook.yml 
+sudo ansible-playbook playbook.yml -i inventory.txt 
+cp playbook.yml batch-strategy.yml
+vi batch-strategy.yml 
+sudo ansible-playbook batch-strategy.yml -i inventory.txt 
+ls
+cp playbook.yml free-strategy.yml
+vi free-strategy.yml 
+sudo ansible-playbook free-strategy.yml -i inventory.txt 
+ls
+vi batch-strategy.yml 
+sudo ansible-playbook batch-strategy.yml -i inventory.txt 
+cd ..
+ls
+git status
+git add -A
+git status
+git commit -m 'strategy-test'
+git push
+git config --unset credential.helper 
+git config credential.helper stroe
+git status
+git add -A
+git commit
+git commit -m 'modify credentials'
+git status
+git push
+git status

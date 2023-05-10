@@ -11,20 +11,22 @@
 # hlsearch on (H) or off (h):
 ~H
 # Last Search Pattern:
-~MSle0~/\<name\>
+~Msle0~/\<failed_when\>
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1683696534,,"wq!"
+|2,0,1683699931,,"wq!"
+:q!
+|2,0,1683699867,,"q!"
 :wq
 |2,0,1683695988,,"wq"
-:q!
-|2,0,1683693484,,"q!"
 
 # Search String History (newest to oldest):
+? \<failed_when\>
+|2,1,1683699863,,"\\<failed_when\\>"
 ? @$
 |2,1,1683618193,,"@$"
 ? \<name\>
@@ -206,230 +208,252 @@ $
 |3,1,36,0,1,0,1683696306,":"
 
 # File marks:
-'0  3  12  ~/strategy-test/batch-strategy.yml
-|4,48,3,12,1683696534,"~/strategy-test/batch-strategy.yml"
-'1  3  15  ~/strategy-test/free-strategy.yml
-|4,49,3,15,1683696485,"~/strategy-test/free-strategy.yml"
-'2  3  10  ~/strategy-test/batch-strategy.yml
-|4,50,3,10,1683696432,"~/strategy-test/batch-strategy.yml"
-'3  3  13  ~/strategy-test/playbook.yml
-|4,51,3,13,1683696355,"~/strategy-test/playbook.yml"
-'4  10  6  ~/strategy-test/inventory.txt
-|4,52,10,6,1683696346,"~/strategy-test/inventory.txt"
-'5  3  8  ~/sample_inventory.txt
-|4,53,3,8,1683696318,"~/sample_inventory.txt"
-'6  6  10  ~/strategy-test/playbook.yml
-|4,54,6,10,1683696271,"~/strategy-test/playbook.yml"
-'7  6  10  ~/strategy-test/playbook.yml
-|4,55,6,10,1683696271,"~/strategy-test/playbook.yml"
-'8  3  35  ~/strategy-test/inventory.txt
-|4,56,3,35,1683696248,"~/strategy-test/inventory.txt"
-'9  3  35  ~/strategy-test/inventory.txt
-|4,57,3,35,1683696248,"~/strategy-test/inventory.txt"
+'0  12  4  ~/error_handling-test/playbooks.yml
+|4,48,12,4,1683699931,"~/error_handling-test/playbooks.yml"
+'1  7  8  ~/error_handling-test/playbooks.yml
+|4,49,7,8,1683699899,"~/error_handling-test/playbooks.yml"
+'2  7  8  ~/error_handling-test/playbooks.yml
+|4,50,7,8,1683699899,"~/error_handling-test/playbooks.yml"
+'3  12  8  ~/error_handling-test/playbooks.yml
+|4,51,12,8,1683699876,"~/error_handling-test/playbooks.yml"
+'4  12  8  ~/error_handling-test/playbooks.yml
+|4,52,12,8,1683699876,"~/error_handling-test/playbooks.yml"
+'5  12  8  ~/error_handling-test/playbooks.yml
+|4,53,12,8,1683699876,"~/error_handling-test/playbooks.yml"
+'6  12  6  ~/error_handling-test/playbooks.yml
+|4,54,12,6,1683699867,"~/error_handling-test/playbooks.yml"
+'7  12  6  ~/error_handling-test/playbooks.yml
+|4,55,12,6,1683699867,"~/error_handling-test/playbooks.yml"
+'8  12  6  ~/error_handling-test/playbooks.yml
+|4,56,12,6,1683699867,"~/error_handling-test/playbooks.yml"
+'9  12  6  ~/error_handling-test/playbooks.yml
+|4,57,12,6,1683699867,"~/error_handling-test/playbooks.yml"
 
 # Jumplist (newest first):
--'  3  12  ~/strategy-test/batch-strategy.yml
-|4,39,3,12,1683696534,"~/strategy-test/batch-strategy.yml"
--'  3  15  ~/strategy-test/free-strategy.yml
-|4,39,3,15,1683696485,"~/strategy-test/free-strategy.yml"
--'  3  15  ~/strategy-test/free-strategy.yml
-|4,39,3,15,1683696485,"~/strategy-test/free-strategy.yml"
--'  1  0  ~/strategy-test/free-strategy.yml
-|4,39,1,0,1683696475,"~/strategy-test/free-strategy.yml"
--'  1  0  ~/strategy-test/free-strategy.yml
-|4,39,1,0,1683696475,"~/strategy-test/free-strategy.yml"
--'  3  10  ~/strategy-test/batch-strategy.yml
-|4,39,3,10,1683696432,"~/strategy-test/batch-strategy.yml"
--'  3  10  ~/strategy-test/batch-strategy.yml
-|4,39,3,10,1683696432,"~/strategy-test/batch-strategy.yml"
--'  1  0  ~/strategy-test/batch-strategy.yml
-|4,39,1,0,1683696424,"~/strategy-test/batch-strategy.yml"
--'  1  0  ~/strategy-test/batch-strategy.yml
-|4,39,1,0,1683696424,"~/strategy-test/batch-strategy.yml"
--'  1  0  ~/strategy-test/batch-strategy.yml
-|4,39,1,0,1683696424,"~/strategy-test/batch-strategy.yml"
--'  3  13  ~/strategy-test/playbook.yml
-|4,39,3,13,1683696355,"~/strategy-test/playbook.yml"
--'  3  13  ~/strategy-test/playbook.yml
-|4,39,3,13,1683696355,"~/strategy-test/playbook.yml"
--'  3  13  ~/strategy-test/playbook.yml
-|4,39,3,13,1683696355,"~/strategy-test/playbook.yml"
--'  3  13  ~/strategy-test/playbook.yml
-|4,39,3,13,1683696355,"~/strategy-test/playbook.yml"
--'  3  13  ~/strategy-test/playbook.yml
-|4,39,3,13,1683696355,"~/strategy-test/playbook.yml"
--'  3  13  ~/strategy-test/playbook.yml
-|4,39,3,13,1683696355,"~/strategy-test/playbook.yml"
--'  3  13  ~/strategy-test/playbook.yml
-|4,39,3,13,1683696355,"~/strategy-test/playbook.yml"
--'  3  13  ~/strategy-test/playbook.yml
-|4,39,3,13,1683696355,"~/strategy-test/playbook.yml"
--'  6  10  ~/strategy-test/playbook.yml
-|4,39,6,10,1683696350,"~/strategy-test/playbook.yml"
--'  6  10  ~/strategy-test/playbook.yml
-|4,39,6,10,1683696350,"~/strategy-test/playbook.yml"
--'  6  10  ~/strategy-test/playbook.yml
-|4,39,6,10,1683696350,"~/strategy-test/playbook.yml"
--'  6  10  ~/strategy-test/playbook.yml
-|4,39,6,10,1683696350,"~/strategy-test/playbook.yml"
--'  6  10  ~/strategy-test/playbook.yml
-|4,39,6,10,1683696350,"~/strategy-test/playbook.yml"
--'  6  10  ~/strategy-test/playbook.yml
-|4,39,6,10,1683696350,"~/strategy-test/playbook.yml"
--'  6  10  ~/strategy-test/playbook.yml
-|4,39,6,10,1683696350,"~/strategy-test/playbook.yml"
--'  6  10  ~/strategy-test/playbook.yml
-|4,39,6,10,1683696350,"~/strategy-test/playbook.yml"
--'  10  6  ~/strategy-test/inventory.txt
-|4,39,10,6,1683696346,"~/strategy-test/inventory.txt"
--'  10  6  ~/strategy-test/inventory.txt
-|4,39,10,6,1683696346,"~/strategy-test/inventory.txt"
--'  10  6  ~/strategy-test/inventory.txt
-|4,39,10,6,1683696346,"~/strategy-test/inventory.txt"
--'  10  6  ~/strategy-test/inventory.txt
-|4,39,10,6,1683696346,"~/strategy-test/inventory.txt"
--'  10  6  ~/strategy-test/inventory.txt
-|4,39,10,6,1683696346,"~/strategy-test/inventory.txt"
--'  10  6  ~/strategy-test/inventory.txt
-|4,39,10,6,1683696346,"~/strategy-test/inventory.txt"
--'  10  6  ~/strategy-test/inventory.txt
-|4,39,10,6,1683696346,"~/strategy-test/inventory.txt"
--'  10  6  ~/strategy-test/inventory.txt
-|4,39,10,6,1683696346,"~/strategy-test/inventory.txt"
--'  10  6  ~/strategy-test/inventory.txt
-|4,39,10,6,1683696346,"~/strategy-test/inventory.txt"
--'  10  6  ~/strategy-test/inventory.txt
-|4,39,10,6,1683696346,"~/strategy-test/inventory.txt"
--'  10  6  ~/strategy-test/inventory.txt
-|4,39,10,6,1683696346,"~/strategy-test/inventory.txt"
--'  10  6  ~/strategy-test/inventory.txt
-|4,39,10,6,1683696346,"~/strategy-test/inventory.txt"
--'  10  6  ~/strategy-test/inventory.txt
-|4,39,10,6,1683696346,"~/strategy-test/inventory.txt"
--'  10  6  ~/strategy-test/inventory.txt
-|4,39,10,6,1683696346,"~/strategy-test/inventory.txt"
--'  10  6  ~/strategy-test/inventory.txt
-|4,39,10,6,1683696346,"~/strategy-test/inventory.txt"
--'  10  6  ~/strategy-test/inventory.txt
-|4,39,10,6,1683696346,"~/strategy-test/inventory.txt"
--'  3  35  ~/strategy-test/inventory.txt
-|4,39,3,35,1683696337,"~/strategy-test/inventory.txt"
--'  3  35  ~/strategy-test/inventory.txt
-|4,39,3,35,1683696337,"~/strategy-test/inventory.txt"
--'  3  35  ~/strategy-test/inventory.txt
-|4,39,3,35,1683696337,"~/strategy-test/inventory.txt"
--'  3  35  ~/strategy-test/inventory.txt
-|4,39,3,35,1683696337,"~/strategy-test/inventory.txt"
--'  3  35  ~/strategy-test/inventory.txt
-|4,39,3,35,1683696337,"~/strategy-test/inventory.txt"
--'  3  35  ~/strategy-test/inventory.txt
-|4,39,3,35,1683696337,"~/strategy-test/inventory.txt"
--'  3  35  ~/strategy-test/inventory.txt
-|4,39,3,35,1683696337,"~/strategy-test/inventory.txt"
--'  3  35  ~/strategy-test/inventory.txt
-|4,39,3,35,1683696337,"~/strategy-test/inventory.txt"
--'  3  35  ~/strategy-test/inventory.txt
-|4,39,3,35,1683696337,"~/strategy-test/inventory.txt"
--'  3  35  ~/strategy-test/inventory.txt
-|4,39,3,35,1683696337,"~/strategy-test/inventory.txt"
--'  3  35  ~/strategy-test/inventory.txt
-|4,39,3,35,1683696337,"~/strategy-test/inventory.txt"
--'  3  35  ~/strategy-test/inventory.txt
-|4,39,3,35,1683696337,"~/strategy-test/inventory.txt"
--'  3  35  ~/strategy-test/inventory.txt
-|4,39,3,35,1683696337,"~/strategy-test/inventory.txt"
--'  3  35  ~/strategy-test/inventory.txt
-|4,39,3,35,1683696337,"~/strategy-test/inventory.txt"
--'  3  35  ~/strategy-test/inventory.txt
-|4,39,3,35,1683696337,"~/strategy-test/inventory.txt"
--'  3  35  ~/strategy-test/inventory.txt
-|4,39,3,35,1683696337,"~/strategy-test/inventory.txt"
--'  3  8  ~/sample_inventory.txt
-|4,39,3,8,1683696318,"~/sample_inventory.txt"
--'  3  8  ~/sample_inventory.txt
-|4,39,3,8,1683696318,"~/sample_inventory.txt"
--'  3  8  ~/sample_inventory.txt
-|4,39,3,8,1683696318,"~/sample_inventory.txt"
--'  3  8  ~/sample_inventory.txt
-|4,39,3,8,1683696318,"~/sample_inventory.txt"
--'  3  8  ~/sample_inventory.txt
-|4,39,3,8,1683696318,"~/sample_inventory.txt"
--'  3  8  ~/sample_inventory.txt
-|4,39,3,8,1683696318,"~/sample_inventory.txt"
--'  3  8  ~/sample_inventory.txt
-|4,39,3,8,1683696318,"~/sample_inventory.txt"
--'  3  8  ~/sample_inventory.txt
-|4,39,3,8,1683696318,"~/sample_inventory.txt"
--'  3  8  ~/sample_inventory.txt
-|4,39,3,8,1683696318,"~/sample_inventory.txt"
--'  3  8  ~/sample_inventory.txt
-|4,39,3,8,1683696318,"~/sample_inventory.txt"
--'  3  8  ~/sample_inventory.txt
-|4,39,3,8,1683696318,"~/sample_inventory.txt"
--'  3  8  ~/sample_inventory.txt
-|4,39,3,8,1683696318,"~/sample_inventory.txt"
--'  3  8  ~/sample_inventory.txt
-|4,39,3,8,1683696318,"~/sample_inventory.txt"
--'  3  8  ~/sample_inventory.txt
-|4,39,3,8,1683696318,"~/sample_inventory.txt"
--'  3  8  ~/sample_inventory.txt
-|4,39,3,8,1683696318,"~/sample_inventory.txt"
--'  3  8  ~/sample_inventory.txt
-|4,39,3,8,1683696318,"~/sample_inventory.txt"
--'  3  8  ~/sample_inventory.txt
-|4,39,3,8,1683696318,"~/sample_inventory.txt"
--'  3  8  ~/sample_inventory.txt
-|4,39,3,8,1683696318,"~/sample_inventory.txt"
--'  3  8  ~/sample_inventory.txt
-|4,39,3,8,1683696318,"~/sample_inventory.txt"
--'  3  8  ~/sample_inventory.txt
-|4,39,3,8,1683696318,"~/sample_inventory.txt"
--'  3  8  ~/sample_inventory.txt
-|4,39,3,8,1683696318,"~/sample_inventory.txt"
--'  3  8  ~/sample_inventory.txt
-|4,39,3,8,1683696318,"~/sample_inventory.txt"
--'  3  8  ~/sample_inventory.txt
-|4,39,3,8,1683696318,"~/sample_inventory.txt"
--'  3  8  ~/sample_inventory.txt
-|4,39,3,8,1683696318,"~/sample_inventory.txt"
--'  3  8  ~/sample_inventory.txt
-|4,39,3,8,1683696318,"~/sample_inventory.txt"
--'  3  8  ~/sample_inventory.txt
-|4,39,3,8,1683696318,"~/sample_inventory.txt"
--'  3  8  ~/sample_inventory.txt
-|4,39,3,8,1683696318,"~/sample_inventory.txt"
--'  3  8  ~/sample_inventory.txt
-|4,39,3,8,1683696318,"~/sample_inventory.txt"
--'  3  8  ~/sample_inventory.txt
-|4,39,3,8,1683696318,"~/sample_inventory.txt"
--'  3  8  ~/sample_inventory.txt
-|4,39,3,8,1683696318,"~/sample_inventory.txt"
--'  3  8  ~/sample_inventory.txt
-|4,39,3,8,1683696318,"~/sample_inventory.txt"
--'  3  8  ~/sample_inventory.txt
-|4,39,3,8,1683696318,"~/sample_inventory.txt"
--'  1  0  ~/sample_inventory.txt
-|4,39,1,0,1683696303,"~/sample_inventory.txt"
--'  1  0  ~/sample_inventory.txt
-|4,39,1,0,1683696303,"~/sample_inventory.txt"
--'  1  0  ~/sample_inventory.txt
-|4,39,1,0,1683696303,"~/sample_inventory.txt"
--'  1  0  ~/sample_inventory.txt
-|4,39,1,0,1683696303,"~/sample_inventory.txt"
--'  1  0  ~/sample_inventory.txt
-|4,39,1,0,1683696303,"~/sample_inventory.txt"
--'  1  0  ~/sample_inventory.txt
-|4,39,1,0,1683696303,"~/sample_inventory.txt"
--'  1  0  ~/sample_inventory.txt
-|4,39,1,0,1683696303,"~/sample_inventory.txt"
--'  1  0  ~/sample_inventory.txt
-|4,39,1,0,1683696303,"~/sample_inventory.txt"
--'  1  0  ~/sample_inventory.txt
-|4,39,1,0,1683696303,"~/sample_inventory.txt"
--'  1  0  ~/sample_inventory.txt
-|4,39,1,0,1683696303,"~/sample_inventory.txt"
+-'  12  4  ~/error_handling-test/playbooks.yml
+|4,39,12,4,1683699931,"~/error_handling-test/playbooks.yml"
+-'  7  8  ~/error_handling-test/playbooks.yml
+|4,39,7,8,1683699920,"~/error_handling-test/playbooks.yml"
+-'  7  8  ~/error_handling-test/playbooks.yml
+|4,39,7,8,1683699899,"~/error_handling-test/playbooks.yml"
+-'  12  8  ~/error_handling-test/playbooks.yml
+|4,39,12,8,1683699892,"~/error_handling-test/playbooks.yml"
+-'  12  8  ~/error_handling-test/playbooks.yml
+|4,39,12,8,1683699876,"~/error_handling-test/playbooks.yml"
+-'  12  6  ~/error_handling-test/playbooks.yml
+|4,39,12,6,1683699867,"~/error_handling-test/playbooks.yml"
+-'  7  23  ~/error_handling-test/playbooks.yml
+|4,39,7,23,1683699847,"~/error_handling-test/playbooks.yml"
+-'  7  23  ~/error_handling-test/playbooks.yml
+|4,39,7,23,1683699847,"~/error_handling-test/playbooks.yml"
+-'  7  23  ~/error_handling-test/playbooks.yml
+|4,39,7,23,1683699821,"~/error_handling-test/playbooks.yml"
+-'  7  23  ~/error_handling-test/playbooks.yml
+|4,39,7,23,1683699794,"~/error_handling-test/playbooks.yml"
+-'  12  52  ~/error_handling-test/playbooks.yml
+|4,39,12,52,1683699779,"~/error_handling-test/playbooks.yml"
+-'  12  52  ~/error_handling-test/playbooks.yml
+|4,39,12,52,1683699779,"~/error_handling-test/playbooks.yml"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  1  4  ~/error_handling-test/error.txt
+|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+-'  11  52  ~/error_handling-test/playbooks.yml
+|4,39,11,52,1683699732,"~/error_handling-test/playbooks.yml"
+-'  11  52  ~/error_handling-test/playbooks.yml
+|4,39,11,52,1683699732,"~/error_handling-test/playbooks.yml"
+-'  11  52  ~/error_handling-test/playbooks.yml
+|4,39,11,52,1683699732,"~/error_handling-test/playbooks.yml"
+-'  11  52  ~/error_handling-test/playbooks.yml
+|4,39,11,52,1683699732,"~/error_handling-test/playbooks.yml"
+-'  11  52  ~/error_handling-test/playbooks.yml
+|4,39,11,52,1683699732,"~/error_handling-test/playbooks.yml"
+-'  11  52  ~/error_handling-test/playbooks.yml
+|4,39,11,52,1683699732,"~/error_handling-test/playbooks.yml"
+-'  11  52  ~/error_handling-test/playbooks.yml
+|4,39,11,52,1683699732,"~/error_handling-test/playbooks.yml"
+-'  1  0  ~/error_handling-test/playbooks.yml
+|4,39,1,0,1683699586,"~/error_handling-test/playbooks.yml"
+-'  1  0  ~/error_handling-test/playbooks.yml
+|4,39,1,0,1683699586,"~/error_handling-test/playbooks.yml"
+-'  1  0  ~/error_handling-test/playbooks.yml
+|4,39,1,0,1683699586,"~/error_handling-test/playbooks.yml"
+-'  1  0  ~/error_handling-test/playbooks.yml
+|4,39,1,0,1683699586,"~/error_handling-test/playbooks.yml"
+-'  1  0  ~/error_handling-test/playbooks.yml
+|4,39,1,0,1683699586,"~/error_handling-test/playbooks.yml"
+-'  1  0  ~/error_handling-test/playbooks.yml
+|4,39,1,0,1683699586,"~/error_handling-test/playbooks.yml"
+-'  1  0  ~/error_handling-test/playbooks.yml
+|4,39,1,0,1683699586,"~/error_handling-test/playbooks.yml"
+-'  1  0  ~/error_handling-test/playbooks.yml
+|4,39,1,0,1683699586,"~/error_handling-test/playbooks.yml"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1683696672,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1683696672,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1683696672,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1683696672,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1683696672,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1683696672,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1683696672,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1683696672,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1683696672,"~/.git/COMMIT_EDITMSG"
 
 # History of marks within files (newest to oldest):
+
+> ~/error_handling-test/playbooks.yml
+	*	1683699930	0
+	"	12	4
+	^	12	5
+	.	12	4
+	+	12	51
+	+	7	23
+	+	12	0
+	+	7	4
+	+	12	4
+
+> ~/error_handling-test/error.txt
+	*	1683699739	0
+	"	1	4
+	^	1	5
+	.	1	4
+	+	1	4
+
+> ~/.git/COMMIT_EDITMSG
+	*	1683696670	0
+	"	1	0
 
 > ~/strategy-test/batch-strategy.yml
 	*	1683696533	0
@@ -483,10 +507,6 @@ $
 	+	9	5
 	+	12	7
 	+	3	7
-
-> ~/.git/COMMIT_EDITMSG
-	*	1683693996	0
-	"	1	0
 
 > ~/.git/MERGE_MSG
 	*	1683693481	0
@@ -627,93 +647,3 @@ $
 	+	1	0
 	+	2	1
 	+	33	0
-
-> ~/db-test2/host_vars/mariadb1
-	*	1683607758	0
-	"	3	0
-	^	3	0
-	.	3	0
-	+	2	0
-	+	3	0
-
-> ~/db-test/playbook.yml
-	*	1683603757	0
-	"	48	14
-	^	46	17
-	.	46	16
-	+	5	7
-	+	4	13
-	+	6	28
-	+	14	20
-	+	13	21
-	+	18	21
-	+	9	20
-	+	18	21
-	+	23	20
-	+	114	0
-	+	27	21
-	+	30	22
-	+	27	17
-	+	31	22
-	+	65	9
-	+	114	0
-	+	65	19
-	+	88	19
-	+	96	23
-	+	101	23
-	+	104	20
-	+	113	8
-	+	108	27
-	+	112	4
-	+	38	21
-	+	38	26
-	+	46	27
-	+	61	273
-	+	61	0
-	+	62	0
-	+	37	0
-	+	32	32
-	+	36	23
-	+	39	0
-	+	47	3
-	+	49	23
-	+	48	0
-	+	49	0
-	+	61	17
-	+	62	31
-	+	61	27
-	+	62	504
-	+	61	6
-	+	61	4
-	+	61	0
-	+	62	14
-	+	62	231
-	+	62	0
-	+	62	15
-	+	62	221
-	+	61	9
-	+	61	23
-	+	61	10
-	+	61	39
-	+	62	0
-	+	61	32
-	+	62	0
-	+	61	14
-	+	57	13
-	+	61	0
-	+	60	16
-	+	61	0
-	+	60	34
-	+	55	0
-	+	52	11
-	+	54	31
-	+	53	53
-	+	54	50
-	+	111	78
-	+	46	15
-	+	109	18
-	+	47	33
-	+	47	11
-	+	47	25
-	+	47	0
-	+	46	16
