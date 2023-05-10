@@ -18,9 +18,9 @@ $
 
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1683699931,,"wq!"
+|2,0,1683700245,,"wq!"
 :q!
-|2,0,1683699867,,"q!"
+|2,0,1683700168,,"q!"
 :wq
 |2,0,1683695988,,"wq"
 
@@ -208,38 +208,86 @@ $
 |3,1,36,0,1,0,1683696306,":"
 
 # File marks:
-'0  12  4  ~/error_handling-test/playbooks.yml
-|4,48,12,4,1683699931,"~/error_handling-test/playbooks.yml"
-'1  7  8  ~/error_handling-test/playbooks.yml
-|4,49,7,8,1683699899,"~/error_handling-test/playbooks.yml"
-'2  7  8  ~/error_handling-test/playbooks.yml
-|4,50,7,8,1683699899,"~/error_handling-test/playbooks.yml"
-'3  12  8  ~/error_handling-test/playbooks.yml
-|4,51,12,8,1683699876,"~/error_handling-test/playbooks.yml"
-'4  12  8  ~/error_handling-test/playbooks.yml
-|4,52,12,8,1683699876,"~/error_handling-test/playbooks.yml"
+'0  3  33  ~/seperate_roles/inventory.txt
+|4,48,3,33,1683700245,"~/seperate_roles/inventory.txt"
+'1  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
+|4,49,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
+'2  12  4  ~/error_handling-test/playbooks.yml
+|4,50,12,4,1683699931,"~/error_handling-test/playbooks.yml"
+'3  7  8  ~/error_handling-test/playbooks.yml
+|4,51,7,8,1683699899,"~/error_handling-test/playbooks.yml"
+'4  7  8  ~/error_handling-test/playbooks.yml
+|4,52,7,8,1683699899,"~/error_handling-test/playbooks.yml"
 '5  12  8  ~/error_handling-test/playbooks.yml
 |4,53,12,8,1683699876,"~/error_handling-test/playbooks.yml"
-'6  12  6  ~/error_handling-test/playbooks.yml
-|4,54,12,6,1683699867,"~/error_handling-test/playbooks.yml"
-'7  12  6  ~/error_handling-test/playbooks.yml
-|4,55,12,6,1683699867,"~/error_handling-test/playbooks.yml"
+'6  12  8  ~/error_handling-test/playbooks.yml
+|4,54,12,8,1683699876,"~/error_handling-test/playbooks.yml"
+'7  12  8  ~/error_handling-test/playbooks.yml
+|4,55,12,8,1683699876,"~/error_handling-test/playbooks.yml"
 '8  12  6  ~/error_handling-test/playbooks.yml
 |4,56,12,6,1683699867,"~/error_handling-test/playbooks.yml"
 '9  12  6  ~/error_handling-test/playbooks.yml
 |4,57,12,6,1683699867,"~/error_handling-test/playbooks.yml"
 
 # Jumplist (newest first):
+-'  3  33  ~/seperate_roles/inventory.txt
+|4,39,3,33,1683700245,"~/seperate_roles/inventory.txt"
+-'  1  0  ~/seperate_roles/inventory.txt
+|4,39,1,0,1683700212,"~/seperate_roles/inventory.txt"
+-'  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
+|4,39,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
+-'  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
+|4,39,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
+-'  1  0  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
+|4,39,1,0,1683700142,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
+-'  1  0  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
+|4,39,1,0,1683700142,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
+-'  12  4  ~/error_handling-test/playbooks.yml
+|4,39,12,4,1683699931,"~/error_handling-test/playbooks.yml"
+-'  12  4  ~/error_handling-test/playbooks.yml
+|4,39,12,4,1683699931,"~/error_handling-test/playbooks.yml"
+-'  12  4  ~/error_handling-test/playbooks.yml
+|4,39,12,4,1683699931,"~/error_handling-test/playbooks.yml"
 -'  12  4  ~/error_handling-test/playbooks.yml
 |4,39,12,4,1683699931,"~/error_handling-test/playbooks.yml"
 -'  7  8  ~/error_handling-test/playbooks.yml
 |4,39,7,8,1683699920,"~/error_handling-test/playbooks.yml"
 -'  7  8  ~/error_handling-test/playbooks.yml
+|4,39,7,8,1683699920,"~/error_handling-test/playbooks.yml"
+-'  7  8  ~/error_handling-test/playbooks.yml
+|4,39,7,8,1683699920,"~/error_handling-test/playbooks.yml"
+-'  7  8  ~/error_handling-test/playbooks.yml
+|4,39,7,8,1683699920,"~/error_handling-test/playbooks.yml"
+-'  7  8  ~/error_handling-test/playbooks.yml
+|4,39,7,8,1683699899,"~/error_handling-test/playbooks.yml"
+-'  7  8  ~/error_handling-test/playbooks.yml
+|4,39,7,8,1683699899,"~/error_handling-test/playbooks.yml"
+-'  7  8  ~/error_handling-test/playbooks.yml
+|4,39,7,8,1683699899,"~/error_handling-test/playbooks.yml"
+-'  7  8  ~/error_handling-test/playbooks.yml
 |4,39,7,8,1683699899,"~/error_handling-test/playbooks.yml"
 -'  12  8  ~/error_handling-test/playbooks.yml
 |4,39,12,8,1683699892,"~/error_handling-test/playbooks.yml"
 -'  12  8  ~/error_handling-test/playbooks.yml
+|4,39,12,8,1683699892,"~/error_handling-test/playbooks.yml"
+-'  12  8  ~/error_handling-test/playbooks.yml
+|4,39,12,8,1683699892,"~/error_handling-test/playbooks.yml"
+-'  12  8  ~/error_handling-test/playbooks.yml
+|4,39,12,8,1683699892,"~/error_handling-test/playbooks.yml"
+-'  12  8  ~/error_handling-test/playbooks.yml
 |4,39,12,8,1683699876,"~/error_handling-test/playbooks.yml"
+-'  12  8  ~/error_handling-test/playbooks.yml
+|4,39,12,8,1683699876,"~/error_handling-test/playbooks.yml"
+-'  12  8  ~/error_handling-test/playbooks.yml
+|4,39,12,8,1683699876,"~/error_handling-test/playbooks.yml"
+-'  12  8  ~/error_handling-test/playbooks.yml
+|4,39,12,8,1683699876,"~/error_handling-test/playbooks.yml"
+-'  12  6  ~/error_handling-test/playbooks.yml
+|4,39,12,6,1683699867,"~/error_handling-test/playbooks.yml"
+-'  12  6  ~/error_handling-test/playbooks.yml
+|4,39,12,6,1683699867,"~/error_handling-test/playbooks.yml"
+-'  12  6  ~/error_handling-test/playbooks.yml
+|4,39,12,6,1683699867,"~/error_handling-test/playbooks.yml"
 -'  12  6  ~/error_handling-test/playbooks.yml
 |4,39,12,6,1683699867,"~/error_handling-test/playbooks.yml"
 -'  7  23  ~/error_handling-test/playbooks.yml
@@ -247,13 +295,49 @@ $
 -'  7  23  ~/error_handling-test/playbooks.yml
 |4,39,7,23,1683699847,"~/error_handling-test/playbooks.yml"
 -'  7  23  ~/error_handling-test/playbooks.yml
+|4,39,7,23,1683699847,"~/error_handling-test/playbooks.yml"
+-'  7  23  ~/error_handling-test/playbooks.yml
+|4,39,7,23,1683699847,"~/error_handling-test/playbooks.yml"
+-'  7  23  ~/error_handling-test/playbooks.yml
+|4,39,7,23,1683699847,"~/error_handling-test/playbooks.yml"
+-'  7  23  ~/error_handling-test/playbooks.yml
+|4,39,7,23,1683699847,"~/error_handling-test/playbooks.yml"
+-'  7  23  ~/error_handling-test/playbooks.yml
+|4,39,7,23,1683699847,"~/error_handling-test/playbooks.yml"
+-'  7  23  ~/error_handling-test/playbooks.yml
+|4,39,7,23,1683699847,"~/error_handling-test/playbooks.yml"
+-'  7  23  ~/error_handling-test/playbooks.yml
 |4,39,7,23,1683699821,"~/error_handling-test/playbooks.yml"
+-'  7  23  ~/error_handling-test/playbooks.yml
+|4,39,7,23,1683699821,"~/error_handling-test/playbooks.yml"
+-'  7  23  ~/error_handling-test/playbooks.yml
+|4,39,7,23,1683699821,"~/error_handling-test/playbooks.yml"
+-'  7  23  ~/error_handling-test/playbooks.yml
+|4,39,7,23,1683699821,"~/error_handling-test/playbooks.yml"
+-'  7  23  ~/error_handling-test/playbooks.yml
+|4,39,7,23,1683699794,"~/error_handling-test/playbooks.yml"
+-'  7  23  ~/error_handling-test/playbooks.yml
+|4,39,7,23,1683699794,"~/error_handling-test/playbooks.yml"
+-'  7  23  ~/error_handling-test/playbooks.yml
+|4,39,7,23,1683699794,"~/error_handling-test/playbooks.yml"
 -'  7  23  ~/error_handling-test/playbooks.yml
 |4,39,7,23,1683699794,"~/error_handling-test/playbooks.yml"
 -'  12  52  ~/error_handling-test/playbooks.yml
 |4,39,12,52,1683699779,"~/error_handling-test/playbooks.yml"
 -'  12  52  ~/error_handling-test/playbooks.yml
 |4,39,12,52,1683699779,"~/error_handling-test/playbooks.yml"
+-'  12  52  ~/error_handling-test/playbooks.yml
+|4,39,12,52,1683699779,"~/error_handling-test/playbooks.yml"
+-'  12  52  ~/error_handling-test/playbooks.yml
+|4,39,12,52,1683699779,"~/error_handling-test/playbooks.yml"
+-'  12  52  ~/error_handling-test/playbooks.yml
+|4,39,12,52,1683699779,"~/error_handling-test/playbooks.yml"
+-'  12  52  ~/error_handling-test/playbooks.yml
+|4,39,12,52,1683699779,"~/error_handling-test/playbooks.yml"
+-'  12  52  ~/error_handling-test/playbooks.yml
+|4,39,12,52,1683699779,"~/error_handling-test/playbooks.yml"
+-'  12  52  ~/error_handling-test/playbooks.yml
+|4,39,12,52,1683699779,"~/error_handling-test/playbooks.yml"
 -'  1  4  ~/error_handling-test/error.txt
 |4,39,1,4,1683699741,"~/error_handling-test/error.txt"
 -'  1  4  ~/error_handling-test/error.txt
@@ -346,92 +430,24 @@ $
 |4,39,1,4,1683699741,"~/error_handling-test/error.txt"
 -'  1  4  ~/error_handling-test/error.txt
 |4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  11  52  ~/error_handling-test/playbooks.yml
-|4,39,11,52,1683699732,"~/error_handling-test/playbooks.yml"
--'  11  52  ~/error_handling-test/playbooks.yml
-|4,39,11,52,1683699732,"~/error_handling-test/playbooks.yml"
--'  11  52  ~/error_handling-test/playbooks.yml
-|4,39,11,52,1683699732,"~/error_handling-test/playbooks.yml"
--'  11  52  ~/error_handling-test/playbooks.yml
-|4,39,11,52,1683699732,"~/error_handling-test/playbooks.yml"
--'  11  52  ~/error_handling-test/playbooks.yml
-|4,39,11,52,1683699732,"~/error_handling-test/playbooks.yml"
--'  11  52  ~/error_handling-test/playbooks.yml
-|4,39,11,52,1683699732,"~/error_handling-test/playbooks.yml"
--'  11  52  ~/error_handling-test/playbooks.yml
-|4,39,11,52,1683699732,"~/error_handling-test/playbooks.yml"
--'  1  0  ~/error_handling-test/playbooks.yml
-|4,39,1,0,1683699586,"~/error_handling-test/playbooks.yml"
--'  1  0  ~/error_handling-test/playbooks.yml
-|4,39,1,0,1683699586,"~/error_handling-test/playbooks.yml"
--'  1  0  ~/error_handling-test/playbooks.yml
-|4,39,1,0,1683699586,"~/error_handling-test/playbooks.yml"
--'  1  0  ~/error_handling-test/playbooks.yml
-|4,39,1,0,1683699586,"~/error_handling-test/playbooks.yml"
--'  1  0  ~/error_handling-test/playbooks.yml
-|4,39,1,0,1683699586,"~/error_handling-test/playbooks.yml"
--'  1  0  ~/error_handling-test/playbooks.yml
-|4,39,1,0,1683699586,"~/error_handling-test/playbooks.yml"
--'  1  0  ~/error_handling-test/playbooks.yml
-|4,39,1,0,1683699586,"~/error_handling-test/playbooks.yml"
--'  1  0  ~/error_handling-test/playbooks.yml
-|4,39,1,0,1683699586,"~/error_handling-test/playbooks.yml"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1683696672,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1683696672,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1683696672,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1683696672,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1683696672,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1683696672,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1683696672,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1683696672,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1683696672,"~/.git/COMMIT_EDITMSG"
 
 # History of marks within files (newest to oldest):
+
+> ~/seperate_roles/inventory.txt
+	*	1683700243	0
+	"	3	33
+	^	3	34
+	.	3	33
+	+	1	31
+	+	2	33
+	+	3	33
+
+> ~/seperate_roles/roles/mariadb_db/tasks/main.yml
+	*	1683700165	0
+	"	29	19
+	^	29	20
+	.	29	19
+	+	29	19
 
 > ~/error_handling-test/playbooks.yml
 	*	1683699930	0
@@ -611,39 +627,3 @@ $
 	+	44	79
 	+	1	0
 	+	44	46
-
-> ~/db-test2/playbook.yml
-	*	1683608325	0
-	"	12	34
-	^	12	35
-	.	12	34
-	+	4	27
-	+	6	32
-	+	4	31
-	+	6	40
-	+	4	27
-	+	6	32
-	+	6	33
-	+	4	25
-	+	3	16
-	+	2	22
-	+	4	14
-	+	5	0
-	+	7	0
-	+	6	14
-	+	13	0
-	+	12	13
-	+	6	33
-	+	12	34
-
-> ~/db-test2/tasks/deploy_db.yml
-	*	1683608129	0
-	"	50	0
-	^	50	0
-	.	33	0
-	+	53	53
-	+	1	3
-	+	53	53
-	+	1	0
-	+	2	1
-	+	33	0

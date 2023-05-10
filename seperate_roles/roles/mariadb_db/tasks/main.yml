@@ -28,7 +28,7 @@
     state: present
 - name: file copy
   copy:
-    src: /home/ec2-user/db-test/db-load-script.sql
+    src: /home/ec2-user/seperate_roles/db-load-script.sql
     dest: /home/ec2-user/sql/db-load-script.sql
 
 - name: query db
@@ -36,4 +36,5 @@
     name: ecomdb
     state: import
     target: /home/ec2-user/sql/db-load-script.sql
+  ignore_errors: yes
 

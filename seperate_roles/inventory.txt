@@ -1,6 +1,6 @@
-target1 ansible_host=54.168.207.96
-target2 ansible_host=13.231.127.83
-mariadb1 ansible_host=35.77.227.73
+target1 ansible_host=35.78.80.96
+target2 ansible_host=35.78.106.179
+mariadb1 ansible_host=35.78.193.66
 
 
 [web_servers]
