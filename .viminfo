@@ -18,7 +18,7 @@ $
 
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1683700245,,"wq!"
+|2,0,1683708940,,"wq!"
 :q!
 |2,0,1683700168,,"q!"
 :wq
@@ -208,36 +208,146 @@ $
 |3,1,36,0,1,0,1683696306,":"
 
 # File marks:
-'0  3  33  ~/seperate_roles/inventory.txt
-|4,48,3,33,1683700245,"~/seperate_roles/inventory.txt"
-'1  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
-|4,49,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
-'2  12  4  ~/error_handling-test/playbooks.yml
-|4,50,12,4,1683699931,"~/error_handling-test/playbooks.yml"
-'3  7  8  ~/error_handling-test/playbooks.yml
-|4,51,7,8,1683699899,"~/error_handling-test/playbooks.yml"
-'4  7  8  ~/error_handling-test/playbooks.yml
-|4,52,7,8,1683699899,"~/error_handling-test/playbooks.yml"
-'5  12  8  ~/error_handling-test/playbooks.yml
-|4,53,12,8,1683699876,"~/error_handling-test/playbooks.yml"
-'6  12  8  ~/error_handling-test/playbooks.yml
-|4,54,12,8,1683699876,"~/error_handling-test/playbooks.yml"
-'7  12  8  ~/error_handling-test/playbooks.yml
-|4,55,12,8,1683699876,"~/error_handling-test/playbooks.yml"
-'8  12  6  ~/error_handling-test/playbooks.yml
-|4,56,12,6,1683699867,"~/error_handling-test/playbooks.yml"
-'9  12  6  ~/error_handling-test/playbooks.yml
-|4,57,12,6,1683699867,"~/error_handling-test/playbooks.yml"
+'0  1  7  ~/vault-test/vault_pass.txt
+|4,48,1,7,1683708940,"~/vault-test/vault_pass.txt"
+'1  6  10  ~/vault-test/playbooks.yml
+|4,49,6,10,1683708557,"~/vault-test/playbooks.yml"
+'2  8  39  ~/templating-test/playbooks.yml
+|4,50,8,39,1683702099,"~/templating-test/playbooks.yml"
+'3  3  33  ~/seperate_roles/inventory.txt
+|4,51,3,33,1683700245,"~/seperate_roles/inventory.txt"
+'4  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
+|4,52,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
+'5  12  4  ~/error_handling-test/playbooks.yml
+|4,53,12,4,1683699931,"~/error_handling-test/playbooks.yml"
+'6  7  8  ~/error_handling-test/playbooks.yml
+|4,54,7,8,1683699899,"~/error_handling-test/playbooks.yml"
+'7  7  8  ~/error_handling-test/playbooks.yml
+|4,55,7,8,1683699899,"~/error_handling-test/playbooks.yml"
+'8  12  8  ~/error_handling-test/playbooks.yml
+|4,56,12,8,1683699876,"~/error_handling-test/playbooks.yml"
+'9  12  8  ~/error_handling-test/playbooks.yml
+|4,57,12,8,1683699876,"~/error_handling-test/playbooks.yml"
 
 # Jumplist (newest first):
+-'  1  7  ~/vault-test/vault_pass.txt
+|4,39,1,7,1683708940,"~/vault-test/vault_pass.txt"
+-'  6  10  ~/vault-test/playbooks.yml
+|4,39,6,10,1683708557,"~/vault-test/playbooks.yml"
+-'  6  10  ~/vault-test/playbooks.yml
+|4,39,6,10,1683708557,"~/vault-test/playbooks.yml"
+-'  1  0  ~/vault-test/playbooks.yml
+|4,39,1,0,1683708530,"~/vault-test/playbooks.yml"
+-'  1  0  ~/vault-test/playbooks.yml
+|4,39,1,0,1683708530,"~/vault-test/playbooks.yml"
+-'  8  39  ~/templating-test/playbooks.yml
+|4,39,8,39,1683702099,"~/templating-test/playbooks.yml"
+-'  8  39  ~/templating-test/playbooks.yml
+|4,39,8,39,1683702099,"~/templating-test/playbooks.yml"
+-'  8  39  ~/templating-test/playbooks.yml
+|4,39,8,39,1683702099,"~/templating-test/playbooks.yml"
+-'  8  39  ~/templating-test/playbooks.yml
+|4,39,8,39,1683702099,"~/templating-test/playbooks.yml"
+-'  1  0  ~/templating-test/playbooks.yml
+|4,39,1,0,1683702039,"~/templating-test/playbooks.yml"
+-'  1  0  ~/templating-test/playbooks.yml
+|4,39,1,0,1683702039,"~/templating-test/playbooks.yml"
+-'  1  0  ~/templating-test/playbooks.yml
+|4,39,1,0,1683702039,"~/templating-test/playbooks.yml"
+-'  1  0  ~/templating-test/playbooks.yml
+|4,39,1,0,1683702039,"~/templating-test/playbooks.yml"
 -'  3  33  ~/seperate_roles/inventory.txt
 |4,39,3,33,1683700245,"~/seperate_roles/inventory.txt"
+-'  3  33  ~/seperate_roles/inventory.txt
+|4,39,3,33,1683700245,"~/seperate_roles/inventory.txt"
+-'  3  33  ~/seperate_roles/inventory.txt
+|4,39,3,33,1683700245,"~/seperate_roles/inventory.txt"
+-'  3  33  ~/seperate_roles/inventory.txt
+|4,39,3,33,1683700245,"~/seperate_roles/inventory.txt"
+-'  3  33  ~/seperate_roles/inventory.txt
+|4,39,3,33,1683700245,"~/seperate_roles/inventory.txt"
+-'  3  33  ~/seperate_roles/inventory.txt
+|4,39,3,33,1683700245,"~/seperate_roles/inventory.txt"
+-'  3  33  ~/seperate_roles/inventory.txt
+|4,39,3,33,1683700245,"~/seperate_roles/inventory.txt"
+-'  3  33  ~/seperate_roles/inventory.txt
+|4,39,3,33,1683700245,"~/seperate_roles/inventory.txt"
+-'  1  0  ~/seperate_roles/inventory.txt
+|4,39,1,0,1683700212,"~/seperate_roles/inventory.txt"
+-'  1  0  ~/seperate_roles/inventory.txt
+|4,39,1,0,1683700212,"~/seperate_roles/inventory.txt"
+-'  1  0  ~/seperate_roles/inventory.txt
+|4,39,1,0,1683700212,"~/seperate_roles/inventory.txt"
+-'  1  0  ~/seperate_roles/inventory.txt
+|4,39,1,0,1683700212,"~/seperate_roles/inventory.txt"
+-'  1  0  ~/seperate_roles/inventory.txt
+|4,39,1,0,1683700212,"~/seperate_roles/inventory.txt"
+-'  1  0  ~/seperate_roles/inventory.txt
+|4,39,1,0,1683700212,"~/seperate_roles/inventory.txt"
+-'  1  0  ~/seperate_roles/inventory.txt
+|4,39,1,0,1683700212,"~/seperate_roles/inventory.txt"
 -'  1  0  ~/seperate_roles/inventory.txt
 |4,39,1,0,1683700212,"~/seperate_roles/inventory.txt"
 -'  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
 |4,39,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
 -'  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
 |4,39,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
+-'  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
+|4,39,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
+-'  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
+|4,39,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
+-'  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
+|4,39,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
+-'  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
+|4,39,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
+-'  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
+|4,39,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
+-'  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
+|4,39,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
+-'  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
+|4,39,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
+-'  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
+|4,39,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
+-'  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
+|4,39,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
+-'  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
+|4,39,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
+-'  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
+|4,39,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
+-'  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
+|4,39,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
+-'  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
+|4,39,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
+-'  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
+|4,39,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
+-'  1  0  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
+|4,39,1,0,1683700142,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
+-'  1  0  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
+|4,39,1,0,1683700142,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
+-'  1  0  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
+|4,39,1,0,1683700142,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
+-'  1  0  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
+|4,39,1,0,1683700142,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
+-'  1  0  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
+|4,39,1,0,1683700142,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
+-'  1  0  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
+|4,39,1,0,1683700142,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
+-'  1  0  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
+|4,39,1,0,1683700142,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
+-'  1  0  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
+|4,39,1,0,1683700142,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
+-'  1  0  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
+|4,39,1,0,1683700142,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
+-'  1  0  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
+|4,39,1,0,1683700142,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
+-'  1  0  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
+|4,39,1,0,1683700142,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
+-'  1  0  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
+|4,39,1,0,1683700142,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
+-'  1  0  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
+|4,39,1,0,1683700142,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
+-'  1  0  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
+|4,39,1,0,1683700142,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
 -'  1  0  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
 |4,39,1,0,1683700142,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
 -'  1  0  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
@@ -250,6 +360,62 @@ $
 |4,39,12,4,1683699931,"~/error_handling-test/playbooks.yml"
 -'  12  4  ~/error_handling-test/playbooks.yml
 |4,39,12,4,1683699931,"~/error_handling-test/playbooks.yml"
+-'  12  4  ~/error_handling-test/playbooks.yml
+|4,39,12,4,1683699931,"~/error_handling-test/playbooks.yml"
+-'  12  4  ~/error_handling-test/playbooks.yml
+|4,39,12,4,1683699931,"~/error_handling-test/playbooks.yml"
+-'  12  4  ~/error_handling-test/playbooks.yml
+|4,39,12,4,1683699931,"~/error_handling-test/playbooks.yml"
+-'  12  4  ~/error_handling-test/playbooks.yml
+|4,39,12,4,1683699931,"~/error_handling-test/playbooks.yml"
+-'  12  4  ~/error_handling-test/playbooks.yml
+|4,39,12,4,1683699931,"~/error_handling-test/playbooks.yml"
+-'  12  4  ~/error_handling-test/playbooks.yml
+|4,39,12,4,1683699931,"~/error_handling-test/playbooks.yml"
+-'  12  4  ~/error_handling-test/playbooks.yml
+|4,39,12,4,1683699931,"~/error_handling-test/playbooks.yml"
+-'  12  4  ~/error_handling-test/playbooks.yml
+|4,39,12,4,1683699931,"~/error_handling-test/playbooks.yml"
+-'  12  4  ~/error_handling-test/playbooks.yml
+|4,39,12,4,1683699931,"~/error_handling-test/playbooks.yml"
+-'  12  4  ~/error_handling-test/playbooks.yml
+|4,39,12,4,1683699931,"~/error_handling-test/playbooks.yml"
+-'  12  4  ~/error_handling-test/playbooks.yml
+|4,39,12,4,1683699931,"~/error_handling-test/playbooks.yml"
+-'  12  4  ~/error_handling-test/playbooks.yml
+|4,39,12,4,1683699931,"~/error_handling-test/playbooks.yml"
+-'  12  4  ~/error_handling-test/playbooks.yml
+|4,39,12,4,1683699931,"~/error_handling-test/playbooks.yml"
+-'  12  4  ~/error_handling-test/playbooks.yml
+|4,39,12,4,1683699931,"~/error_handling-test/playbooks.yml"
+-'  12  4  ~/error_handling-test/playbooks.yml
+|4,39,12,4,1683699931,"~/error_handling-test/playbooks.yml"
+-'  12  4  ~/error_handling-test/playbooks.yml
+|4,39,12,4,1683699931,"~/error_handling-test/playbooks.yml"
+-'  12  4  ~/error_handling-test/playbooks.yml
+|4,39,12,4,1683699931,"~/error_handling-test/playbooks.yml"
+-'  12  4  ~/error_handling-test/playbooks.yml
+|4,39,12,4,1683699931,"~/error_handling-test/playbooks.yml"
+-'  12  4  ~/error_handling-test/playbooks.yml
+|4,39,12,4,1683699931,"~/error_handling-test/playbooks.yml"
+-'  12  4  ~/error_handling-test/playbooks.yml
+|4,39,12,4,1683699931,"~/error_handling-test/playbooks.yml"
+-'  12  4  ~/error_handling-test/playbooks.yml
+|4,39,12,4,1683699931,"~/error_handling-test/playbooks.yml"
+-'  12  4  ~/error_handling-test/playbooks.yml
+|4,39,12,4,1683699931,"~/error_handling-test/playbooks.yml"
+-'  12  4  ~/error_handling-test/playbooks.yml
+|4,39,12,4,1683699931,"~/error_handling-test/playbooks.yml"
+-'  12  4  ~/error_handling-test/playbooks.yml
+|4,39,12,4,1683699931,"~/error_handling-test/playbooks.yml"
+-'  12  4  ~/error_handling-test/playbooks.yml
+|4,39,12,4,1683699931,"~/error_handling-test/playbooks.yml"
+-'  12  4  ~/error_handling-test/playbooks.yml
+|4,39,12,4,1683699931,"~/error_handling-test/playbooks.yml"
+-'  12  4  ~/error_handling-test/playbooks.yml
+|4,39,12,4,1683699931,"~/error_handling-test/playbooks.yml"
+-'  12  4  ~/error_handling-test/playbooks.yml
+|4,39,12,4,1683699931,"~/error_handling-test/playbooks.yml"
 -'  7  8  ~/error_handling-test/playbooks.yml
 |4,39,7,8,1683699920,"~/error_handling-test/playbooks.yml"
 -'  7  8  ~/error_handling-test/playbooks.yml
@@ -259,179 +425,34 @@ $
 -'  7  8  ~/error_handling-test/playbooks.yml
 |4,39,7,8,1683699920,"~/error_handling-test/playbooks.yml"
 -'  7  8  ~/error_handling-test/playbooks.yml
-|4,39,7,8,1683699899,"~/error_handling-test/playbooks.yml"
+|4,39,7,8,1683699920,"~/error_handling-test/playbooks.yml"
 -'  7  8  ~/error_handling-test/playbooks.yml
-|4,39,7,8,1683699899,"~/error_handling-test/playbooks.yml"
+|4,39,7,8,1683699920,"~/error_handling-test/playbooks.yml"
 -'  7  8  ~/error_handling-test/playbooks.yml
-|4,39,7,8,1683699899,"~/error_handling-test/playbooks.yml"
--'  7  8  ~/error_handling-test/playbooks.yml
-|4,39,7,8,1683699899,"~/error_handling-test/playbooks.yml"
--'  12  8  ~/error_handling-test/playbooks.yml
-|4,39,12,8,1683699892,"~/error_handling-test/playbooks.yml"
--'  12  8  ~/error_handling-test/playbooks.yml
-|4,39,12,8,1683699892,"~/error_handling-test/playbooks.yml"
--'  12  8  ~/error_handling-test/playbooks.yml
-|4,39,12,8,1683699892,"~/error_handling-test/playbooks.yml"
--'  12  8  ~/error_handling-test/playbooks.yml
-|4,39,12,8,1683699892,"~/error_handling-test/playbooks.yml"
--'  12  8  ~/error_handling-test/playbooks.yml
-|4,39,12,8,1683699876,"~/error_handling-test/playbooks.yml"
--'  12  8  ~/error_handling-test/playbooks.yml
-|4,39,12,8,1683699876,"~/error_handling-test/playbooks.yml"
--'  12  8  ~/error_handling-test/playbooks.yml
-|4,39,12,8,1683699876,"~/error_handling-test/playbooks.yml"
--'  12  8  ~/error_handling-test/playbooks.yml
-|4,39,12,8,1683699876,"~/error_handling-test/playbooks.yml"
--'  12  6  ~/error_handling-test/playbooks.yml
-|4,39,12,6,1683699867,"~/error_handling-test/playbooks.yml"
--'  12  6  ~/error_handling-test/playbooks.yml
-|4,39,12,6,1683699867,"~/error_handling-test/playbooks.yml"
--'  12  6  ~/error_handling-test/playbooks.yml
-|4,39,12,6,1683699867,"~/error_handling-test/playbooks.yml"
--'  12  6  ~/error_handling-test/playbooks.yml
-|4,39,12,6,1683699867,"~/error_handling-test/playbooks.yml"
--'  7  23  ~/error_handling-test/playbooks.yml
-|4,39,7,23,1683699847,"~/error_handling-test/playbooks.yml"
--'  7  23  ~/error_handling-test/playbooks.yml
-|4,39,7,23,1683699847,"~/error_handling-test/playbooks.yml"
--'  7  23  ~/error_handling-test/playbooks.yml
-|4,39,7,23,1683699847,"~/error_handling-test/playbooks.yml"
--'  7  23  ~/error_handling-test/playbooks.yml
-|4,39,7,23,1683699847,"~/error_handling-test/playbooks.yml"
--'  7  23  ~/error_handling-test/playbooks.yml
-|4,39,7,23,1683699847,"~/error_handling-test/playbooks.yml"
--'  7  23  ~/error_handling-test/playbooks.yml
-|4,39,7,23,1683699847,"~/error_handling-test/playbooks.yml"
--'  7  23  ~/error_handling-test/playbooks.yml
-|4,39,7,23,1683699847,"~/error_handling-test/playbooks.yml"
--'  7  23  ~/error_handling-test/playbooks.yml
-|4,39,7,23,1683699847,"~/error_handling-test/playbooks.yml"
--'  7  23  ~/error_handling-test/playbooks.yml
-|4,39,7,23,1683699821,"~/error_handling-test/playbooks.yml"
--'  7  23  ~/error_handling-test/playbooks.yml
-|4,39,7,23,1683699821,"~/error_handling-test/playbooks.yml"
--'  7  23  ~/error_handling-test/playbooks.yml
-|4,39,7,23,1683699821,"~/error_handling-test/playbooks.yml"
--'  7  23  ~/error_handling-test/playbooks.yml
-|4,39,7,23,1683699821,"~/error_handling-test/playbooks.yml"
--'  7  23  ~/error_handling-test/playbooks.yml
-|4,39,7,23,1683699794,"~/error_handling-test/playbooks.yml"
--'  7  23  ~/error_handling-test/playbooks.yml
-|4,39,7,23,1683699794,"~/error_handling-test/playbooks.yml"
--'  7  23  ~/error_handling-test/playbooks.yml
-|4,39,7,23,1683699794,"~/error_handling-test/playbooks.yml"
--'  7  23  ~/error_handling-test/playbooks.yml
-|4,39,7,23,1683699794,"~/error_handling-test/playbooks.yml"
--'  12  52  ~/error_handling-test/playbooks.yml
-|4,39,12,52,1683699779,"~/error_handling-test/playbooks.yml"
--'  12  52  ~/error_handling-test/playbooks.yml
-|4,39,12,52,1683699779,"~/error_handling-test/playbooks.yml"
--'  12  52  ~/error_handling-test/playbooks.yml
-|4,39,12,52,1683699779,"~/error_handling-test/playbooks.yml"
--'  12  52  ~/error_handling-test/playbooks.yml
-|4,39,12,52,1683699779,"~/error_handling-test/playbooks.yml"
--'  12  52  ~/error_handling-test/playbooks.yml
-|4,39,12,52,1683699779,"~/error_handling-test/playbooks.yml"
--'  12  52  ~/error_handling-test/playbooks.yml
-|4,39,12,52,1683699779,"~/error_handling-test/playbooks.yml"
--'  12  52  ~/error_handling-test/playbooks.yml
-|4,39,12,52,1683699779,"~/error_handling-test/playbooks.yml"
--'  12  52  ~/error_handling-test/playbooks.yml
-|4,39,12,52,1683699779,"~/error_handling-test/playbooks.yml"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
--'  1  4  ~/error_handling-test/error.txt
-|4,39,1,4,1683699741,"~/error_handling-test/error.txt"
+|4,39,7,8,1683699920,"~/error_handling-test/playbooks.yml"
 
 # History of marks within files (newest to oldest):
+
+> ~/vault-test/vault_pass.txt
+	*	1683708939	0
+	"	1	7
+	^	1	8
+	.	1	7
+	+	1	7
+
+> ~/vault-test/playbooks.yml
+	*	1683708556	0
+	"	6	10
+	^	6	11
+	.	6	10
+	+	6	10
+
+> ~/templating-test/playbooks.yml
+	*	1683702098	0
+	"	8	39
+	^	8	40
+	.	8	39
+	+	8	39
 
 > ~/seperate_roles/inventory.txt
 	*	1683700243	0
@@ -591,39 +612,3 @@ $
 	.	4	22
 	+	3	15
 	+	4	22
-
-> ~/db-test2/inventory.txt
-	*	1683608843	0
-	"	13	7
-	^	4	43
-	.	5	0
-	+	3	7
-	+	13	7
-	+	10	5
-	+	4	5
-	+	3	34
-	+	2	34
-	+	1	21
-	+	3	0
-	+	1	30
-	+	5	0
-
-> ~/db-test2/group_vars/nodes.yml
-	*	1683608818	0
-	"	3	22
-	^	3	23
-	.	2	68
-	+	2	111
-	+	1	12
-	+	2	29
-	+	1	13
-	+	2	68
-
-> ~/db-test2/tasks/deploy_web.yml
-	*	1683608470	0
-	"	44	46
-	^	44	47
-	.	44	46
-	+	44	79
-	+	1	0
-	+	44	46

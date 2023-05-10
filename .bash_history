@@ -778,3 +778,72 @@ git commit -m 'modify credentials'
 git status
 git push
 git status
+ls
+mkdir error_handling-test
+ls
+cat sample_inventory.txt 
+cat /var/log/server.log
+ls
+cp sample_inventory.txt error_handling-test/inventory.txt
+cd error_handling-test/
+ls
+vi playbooks.yml
+vi error.txt
+sudo ansible-playbook playbooks.yml -i inventory.txt 
+vi playbooks.yml
+sudo ansible-playbook playbooks.yml -i inventory.txt 
+vi playbooks.yml
+vi playbooks.yml 
+sudo ansible-playbook playbooks.yml -i inventory.txt 
+vi playbooks.yml 
+sudo ansible-playbook playbooks.yml -i inventory.txt 
+vi playbooks.yml 
+sudo ansible-playbook playbooks.yml -i inventory.txt 
+cd ..
+ls
+git status
+git add -A
+git commit -m 'error-handling'
+git push
+git config credential.helper store
+ls
+git status
+ls
+cd seperate_roles/
+ls
+vi roles/mariadb_db/tasks/main.yml 
+sudo vi roles/mariadb_db/tasks/main.yml 
+ls
+vi inventory.txt 
+ls
+cat group_vars/nodes.yml 
+sudo vi group_vars/nodes.yml 
+sudo ansible-playbook playbook.yml -i inventory.txt 
+ls
+sudo vi roles/mariadb_db/tasks/main.yml 
+sudo ansible-playbook playbook.yml -i inventory.txt 
+sudo vi roles/mariadb_db/tasks/main.yml 
+sudo ansible-playbook playbook.yml -i inventory.txt 
+sudo vi roles/mariadb_db/tasks/main.yml 
+ls
+cat db-load-script.sql 
+sudo vi roles/mariadb_db/tasks/main.yml 
+sudo ansible-playbook playbook.yml -i inventory.txt 
+cd ..
+ls
+git status
+git add -A
+git commit -m 'ignore errors when db tries to make table that already exists'
+git push
+ls
+mkdir templating-test
+ls
+cd templating-test/
+ls
+cd ..
+cp sample_inventory.txt templating-test/inventory.txt
+ls
+cd templating-test/
+ls
+vi playbooks.yml
+sudo ansible-playbook playbooks.yml -i inventory.txt 
