@@ -18,9 +18,9 @@ $
 
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1683693059,,"wq!"
+|2,0,1683693999,,"wq!"
 :q!
-|2,0,1683618324,,"q!"
+|2,0,1683693484,,"q!"
 
 # Search String History (newest to oldest):
 ? @$
@@ -201,38 +201,80 @@ $
 |3,0,9,1,1,0,1683532853,"          - 43.207.38.102"
 
 # File marks:
-'0  6  14  ~/async/playbook.yml
-|4,48,6,14,1683693059,"~/async/playbook.yml"
-'1  24  25  ~/async/playbook.yml
-|4,49,24,25,1683692989,"~/async/playbook.yml"
-'2  23  25  ~/async/playbook.yml
-|4,50,23,25,1683692989,"~/async/playbook.yml"
-'3  20  16  ~/async/playbook.yml
-|4,51,20,16,1683692909,"~/async/playbook.yml"
-'4  20  16  ~/async/playbook.yml
-|4,52,20,16,1683692909,"~/async/playbook.yml"
+'0  1  0  ~/.git/COMMIT_EDITMSG
+|4,48,1,0,1683693999,"~/.git/COMMIT_EDITMSG"
+'1  1  0  ~/.git/MERGE_MSG
+|4,49,1,0,1683693484,"~/.git/MERGE_MSG"
+'2  6  14  ~/async/playbook.yml
+|4,50,6,14,1683693059,"~/async/playbook.yml"
+'3  24  25  ~/async/playbook.yml
+|4,51,24,25,1683692989,"~/async/playbook.yml"
+'4  23  25  ~/async/playbook.yml
+|4,52,23,25,1683692989,"~/async/playbook.yml"
 '5  20  16  ~/async/playbook.yml
 |4,53,20,16,1683692909,"~/async/playbook.yml"
 '6  20  16  ~/async/playbook.yml
 |4,54,20,16,1683692909,"~/async/playbook.yml"
-'7  13  12  ~/async/playbook.yml
-|4,55,13,12,1683692810,"~/async/playbook.yml"
-'8  12  12  ~/async/playbook.yml
-|4,56,12,12,1683692810,"~/async/playbook.yml"
+'7  20  16  ~/async/playbook.yml
+|4,55,20,16,1683692909,"~/async/playbook.yml"
+'8  20  16  ~/async/playbook.yml
+|4,56,20,16,1683692909,"~/async/playbook.yml"
 '9  13  12  ~/async/playbook.yml
 |4,57,13,12,1683692810,"~/async/playbook.yml"
 
 # Jumplist (newest first):
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1683693999,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1683693484,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1683693484,"~/.git/MERGE_MSG"
+-'  6  14  ~/async/playbook.yml
+|4,39,6,14,1683693059,"~/async/playbook.yml"
+-'  6  14  ~/async/playbook.yml
+|4,39,6,14,1683693059,"~/async/playbook.yml"
+-'  6  14  ~/async/playbook.yml
+|4,39,6,14,1683693059,"~/async/playbook.yml"
 -'  6  14  ~/async/playbook.yml
 |4,39,6,14,1683693059,"~/async/playbook.yml"
 -'  24  25  ~/async/playbook.yml
 |4,39,24,25,1683693036,"~/async/playbook.yml"
+-'  24  25  ~/async/playbook.yml
+|4,39,24,25,1683693036,"~/async/playbook.yml"
+-'  24  25  ~/async/playbook.yml
+|4,39,24,25,1683693036,"~/async/playbook.yml"
+-'  24  25  ~/async/playbook.yml
+|4,39,24,25,1683693036,"~/async/playbook.yml"
+-'  23  25  ~/async/playbook.yml
+|4,39,23,25,1683692989,"~/async/playbook.yml"
+-'  23  25  ~/async/playbook.yml
+|4,39,23,25,1683692989,"~/async/playbook.yml"
+-'  23  25  ~/async/playbook.yml
+|4,39,23,25,1683692989,"~/async/playbook.yml"
 -'  23  25  ~/async/playbook.yml
 |4,39,23,25,1683692989,"~/async/playbook.yml"
 -'  20  16  ~/async/playbook.yml
 |4,39,20,16,1683692957,"~/async/playbook.yml"
 -'  20  16  ~/async/playbook.yml
 |4,39,20,16,1683692957,"~/async/playbook.yml"
+-'  20  16  ~/async/playbook.yml
+|4,39,20,16,1683692957,"~/async/playbook.yml"
+-'  20  16  ~/async/playbook.yml
+|4,39,20,16,1683692957,"~/async/playbook.yml"
+-'  20  16  ~/async/playbook.yml
+|4,39,20,16,1683692957,"~/async/playbook.yml"
+-'  20  16  ~/async/playbook.yml
+|4,39,20,16,1683692957,"~/async/playbook.yml"
+-'  20  16  ~/async/playbook.yml
+|4,39,20,16,1683692957,"~/async/playbook.yml"
+-'  20  16  ~/async/playbook.yml
+|4,39,20,16,1683692957,"~/async/playbook.yml"
+-'  20  16  ~/async/playbook.yml
+|4,39,20,16,1683692909,"~/async/playbook.yml"
+-'  20  16  ~/async/playbook.yml
+|4,39,20,16,1683692909,"~/async/playbook.yml"
+-'  20  16  ~/async/playbook.yml
+|4,39,20,16,1683692909,"~/async/playbook.yml"
 -'  20  16  ~/async/playbook.yml
 |4,39,20,16,1683692909,"~/async/playbook.yml"
 -'  13  12  ~/async/playbook.yml
@@ -241,6 +283,42 @@ $
 |4,39,13,12,1683692827,"~/async/playbook.yml"
 -'  13  12  ~/async/playbook.yml
 |4,39,13,12,1683692827,"~/async/playbook.yml"
+-'  13  12  ~/async/playbook.yml
+|4,39,13,12,1683692827,"~/async/playbook.yml"
+-'  13  12  ~/async/playbook.yml
+|4,39,13,12,1683692827,"~/async/playbook.yml"
+-'  13  12  ~/async/playbook.yml
+|4,39,13,12,1683692827,"~/async/playbook.yml"
+-'  13  12  ~/async/playbook.yml
+|4,39,13,12,1683692827,"~/async/playbook.yml"
+-'  13  12  ~/async/playbook.yml
+|4,39,13,12,1683692827,"~/async/playbook.yml"
+-'  13  12  ~/async/playbook.yml
+|4,39,13,12,1683692827,"~/async/playbook.yml"
+-'  13  12  ~/async/playbook.yml
+|4,39,13,12,1683692827,"~/async/playbook.yml"
+-'  13  12  ~/async/playbook.yml
+|4,39,13,12,1683692827,"~/async/playbook.yml"
+-'  13  12  ~/async/playbook.yml
+|4,39,13,12,1683692827,"~/async/playbook.yml"
+-'  12  12  ~/async/playbook.yml
+|4,39,12,12,1683692810,"~/async/playbook.yml"
+-'  12  12  ~/async/playbook.yml
+|4,39,12,12,1683692810,"~/async/playbook.yml"
+-'  12  12  ~/async/playbook.yml
+|4,39,12,12,1683692810,"~/async/playbook.yml"
+-'  12  12  ~/async/playbook.yml
+|4,39,12,12,1683692810,"~/async/playbook.yml"
+-'  12  12  ~/async/playbook.yml
+|4,39,12,12,1683692810,"~/async/playbook.yml"
+-'  12  12  ~/async/playbook.yml
+|4,39,12,12,1683692810,"~/async/playbook.yml"
+-'  12  12  ~/async/playbook.yml
+|4,39,12,12,1683692810,"~/async/playbook.yml"
+-'  12  12  ~/async/playbook.yml
+|4,39,12,12,1683692810,"~/async/playbook.yml"
+-'  12  12  ~/async/playbook.yml
+|4,39,12,12,1683692810,"~/async/playbook.yml"
 -'  12  12  ~/async/playbook.yml
 |4,39,12,12,1683692810,"~/async/playbook.yml"
 -'  12  12  ~/async/playbook.yml
@@ -255,6 +333,54 @@ $
 |4,39,12,14,1683692750,"~/async/playbook.yml"
 -'  11  14  ~/async/playbook.yml
 |4,39,11,14,1683692750,"~/async/playbook.yml"
+-'  11  14  ~/async/playbook.yml
+|4,39,11,14,1683692750,"~/async/playbook.yml"
+-'  11  14  ~/async/playbook.yml
+|4,39,11,14,1683692750,"~/async/playbook.yml"
+-'  12  14  ~/async/playbook.yml
+|4,39,12,14,1683692750,"~/async/playbook.yml"
+-'  11  14  ~/async/playbook.yml
+|4,39,11,14,1683692750,"~/async/playbook.yml"
+-'  11  14  ~/async/playbook.yml
+|4,39,11,14,1683692750,"~/async/playbook.yml"
+-'  11  14  ~/async/playbook.yml
+|4,39,11,14,1683692750,"~/async/playbook.yml"
+-'  12  14  ~/async/playbook.yml
+|4,39,12,14,1683692750,"~/async/playbook.yml"
+-'  11  14  ~/async/playbook.yml
+|4,39,11,14,1683692750,"~/async/playbook.yml"
+-'  11  14  ~/async/playbook.yml
+|4,39,11,14,1683692750,"~/async/playbook.yml"
+-'  11  14  ~/async/playbook.yml
+|4,39,11,14,1683692750,"~/async/playbook.yml"
+-'  12  14  ~/async/playbook.yml
+|4,39,12,14,1683692750,"~/async/playbook.yml"
+-'  11  14  ~/async/playbook.yml
+|4,39,11,14,1683692750,"~/async/playbook.yml"
+-'  10  14  ~/async/playbook.yml
+|4,39,10,14,1683692702,"~/async/playbook.yml"
+-'  10  14  ~/async/playbook.yml
+|4,39,10,14,1683692702,"~/async/playbook.yml"
+-'  11  14  ~/async/playbook.yml
+|4,39,11,14,1683692702,"~/async/playbook.yml"
+-'  10  14  ~/async/playbook.yml
+|4,39,10,14,1683692702,"~/async/playbook.yml"
+-'  10  14  ~/async/playbook.yml
+|4,39,10,14,1683692702,"~/async/playbook.yml"
+-'  10  14  ~/async/playbook.yml
+|4,39,10,14,1683692702,"~/async/playbook.yml"
+-'  11  14  ~/async/playbook.yml
+|4,39,11,14,1683692702,"~/async/playbook.yml"
+-'  10  14  ~/async/playbook.yml
+|4,39,10,14,1683692702,"~/async/playbook.yml"
+-'  10  14  ~/async/playbook.yml
+|4,39,10,14,1683692702,"~/async/playbook.yml"
+-'  10  14  ~/async/playbook.yml
+|4,39,10,14,1683692702,"~/async/playbook.yml"
+-'  11  14  ~/async/playbook.yml
+|4,39,11,14,1683692702,"~/async/playbook.yml"
+-'  10  14  ~/async/playbook.yml
+|4,39,10,14,1683692702,"~/async/playbook.yml"
 -'  10  14  ~/async/playbook.yml
 |4,39,10,14,1683692702,"~/async/playbook.yml"
 -'  10  14  ~/async/playbook.yml
@@ -274,157 +400,39 @@ $
 -'  5  11  ~/async/playbook.yml
 |4,39,5,11,1683692630,"~/async/playbook.yml"
 -'  5  11  ~/async/playbook.yml
-|4,39,5,11,1683692549,"~/async/playbook.yml"
--'  5  44  ~/async/playbook.yml
-|4,39,5,44,1683692429,"~/async/playbook.yml"
--'  1  0  ~/async/playbook.yml
-|4,39,1,0,1683692270,"~/async/playbook.yml"
--'  1  0  ~/async/playbook.yml
-|4,39,1,0,1683692270,"~/async/playbook.yml"
--'  1  0  ~/async/playbook.yml
-|4,39,1,0,1683692270,"~/async/playbook.yml"
--'  1  0  ~/async/playbook.yml
-|4,39,1,0,1683692270,"~/async/playbook.yml"
--'  1  0  ~/async/playbook.yml
-|4,39,1,0,1683692270,"~/async/playbook.yml"
--'  1  0  ~/async/playbook.yml
-|4,39,1,0,1683692270,"~/async/playbook.yml"
--'  1  0  ~/async/playbook.yml
-|4,39,1,0,1683692270,"~/async/playbook.yml"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1683620693,"~/.gitignore"
+|4,39,5,11,1683692630,"~/async/playbook.yml"
+-'  5  11  ~/async/playbook.yml
+|4,39,5,11,1683692630,"~/async/playbook.yml"
+-'  5  11  ~/async/playbook.yml
+|4,39,5,11,1683692630,"~/async/playbook.yml"
+-'  5  11  ~/async/playbook.yml
+|4,39,5,11,1683692630,"~/async/playbook.yml"
+-'  5  11  ~/async/playbook.yml
+|4,39,5,11,1683692630,"~/async/playbook.yml"
+-'  5  11  ~/async/playbook.yml
+|4,39,5,11,1683692630,"~/async/playbook.yml"
+-'  5  11  ~/async/playbook.yml
+|4,39,5,11,1683692630,"~/async/playbook.yml"
+-'  5  11  ~/async/playbook.yml
+|4,39,5,11,1683692630,"~/async/playbook.yml"
+-'  5  11  ~/async/playbook.yml
+|4,39,5,11,1683692630,"~/async/playbook.yml"
+-'  5  11  ~/async/playbook.yml
+|4,39,5,11,1683692630,"~/async/playbook.yml"
+-'  5  11  ~/async/playbook.yml
+|4,39,5,11,1683692630,"~/async/playbook.yml"
+-'  5  11  ~/async/playbook.yml
+|4,39,5,11,1683692630,"~/async/playbook.yml"
 
 # History of marks within files (newest to oldest):
+
+> ~/.git/COMMIT_EDITMSG
+	*	1683693996	0
+	"	1	0
+
+> ~/.git/MERGE_MSG
+	*	1683693481	0
+	"	1	0
 
 > ~/async/playbook.yml
 	*	1683693057	0
@@ -706,18 +714,3 @@ $
 	+	12	6
 	+	3	21
 	+	3	76
-
-> ~/project-1/playbook-pingtest.yaml
-	*	1683177258	0
-	"	6	11
-	^	6	12
-	.	6	11
-	+	6	11
-
-> ~/project-1/inventory.txt
-	*	1683176355	0
-	"	2	32
-	^	2	33
-	.	2	32
-	+	1	33
-	+	2	32

@@ -672,3 +672,33 @@ git push
 git status
 sudo git push
 ls
+ls
+mkdir async
+cd async
+ls
+cd ..
+ls
+cp sample_inventory.txt async/inventory.txt
+cd async/
+ls
+cat inventory.txt 
+ls
+vi playbook.yml
+sudo ansible-playbook playbook.yml -i inventory.txt 
+vi playbook.yml 
+sudo ansible-playbook playbook.yml -i inventory.txt 
+cat playbook.yml 
+sudo ansible-playbook playbook.yml -i inventory.txt 
+ls
+cd ..
+ls
+git status
+git add -A
+git commit -m 'asynchronous'
+git push
+git config --unset credential.helper 
+git config credential.helper store
+git push
+git fetch
+git merge origin/master
+git push
