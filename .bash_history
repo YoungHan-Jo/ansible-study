@@ -847,3 +847,132 @@ cd templating-test/
 ls
 vi playbooks.yml
 sudo ansible-playbook playbooks.yml -i inventory.txt 
+ls
+mkdir vault-test
+cd vault-test/
+ls
+cd ..
+cp sample_inventory.txt vault-test/inventory.txt
+ls
+cd vault-test/
+ls
+sudo ansible-vault encrypt inventory.txt 
+cat inventory.txt 
+sudo cat inventory.txt 
+vi playbooks.yml
+sudo ansible-playbook playbooks.yml -i inventory.txt 
+sudo ansible-playbook playbooks.yml -i inventory.txt -ask-vault-pass
+ansible-playbook playbooks.yml -i inventory.txt -ask-vault-pass
+sudo ansible-playbook playbooks.yml -i inventory.txt --ask-vault-pass
+ansible-playbook playbooks.yml -i inventory.txt --ask-vault-pass
+ansible-playbook playbooks.yml -i inventory.txt
+LS
+s
+ls
+cat inventory.txt 
+sudo cat inventory.txt 
+ansible-playbook playbooks.yml -i inventory.txt --ask-vault-pass
+ls
+vi vault_pass.txt
+ansible-playbook playbooks.yml -i inventory.txt  --vault-password-file ./vault_pass.txt 
+ansible-vault view inventory.txt 
+sudo ansible-vault view inventory.txt 
+ls
+cd ..
+cd vault-test/
+ls
+sudo ansible-vault create inventory
+ls
+cat inventory
+sudo cat inventory
+ls
+cd ..
+ls
+git status
+git add *
+sudo git add *
+git status
+git restore --staged templating*
+git status
+sudo git commit -m 'vault'
+git status
+sudo git commit -m 'vault'
+git config --global user.email "verin4494@gmail.com"
+git config --global user.name "younghan-jo"
+sudo git commit -m 'vault'
+git status
+git config --global user.email "verin4494@gmail.com"
+git config --global user.name "Younghan-Jo"
+ls
+git status
+git commit -m 'vault'
+git status
+git push
+ls
+cd templating-test/
+ls
+cat playbooks.yml 
+cd ..
+ls
+rm -r templating-test/
+ls
+git status
+git add -A
+git commit -m 'config'
+git push
+git status
+ls
+ansible --version
+ls
+mkdir zabbix_ansible
+ls
+cd zabbix_ansible/
+ls
+cd ..
+ls
+rm zabbix_ansible/
+sudo rm zabbix_ansible/
+sudo rmdir zabbix_ansible/
+ls
+clear
+sudo ansible-galaxy collection list
+sudo ansible-galaxy collection --list
+sudo ansible-galaxy collection -h
+ls
+mkdir dynamic-inventory-test
+cp sample_inventory.txt dynamic-inventory-test/inventory.txt
+cd dynamic-inventory-test/
+ls
+sudo vi playbook.yml
+ls
+sudo vi inventory.txt 
+sudo ansible-playbook playbook.yml -i inventory.txt 
+sudo vi inventory.py
+cat inventory.
+cat inventory.txt 
+ls
+cd dynamic-inventory-test/
+ls
+cat inventory.txt 
+ls
+cd dynamic-inventory-test/
+ls
+sudo vi inventory.py
+sudo ansible-playbook playbook.yml -i inventory.py
+sudo vi inventory.py
+sudo ansible-playbook playbook.yml -i inventory.py
+./inventory.py --list
+sudo ./inventory.py --list
+cat inventory.py
+which python
+sudo vi inventory.py
+sudo ansible-playbook playbook.yml -i inventory.py
+sudo ./inventory.py --list
+python --version
+which python
+sudo vi inventory.py
+sudo ./inventory.py --list
+./inventory.py --host server1
+sudo ./inventory.py --host server1
+./inventory.py --list
+vi inventory.py
