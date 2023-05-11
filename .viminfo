@@ -18,7 +18,7 @@ $
 
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1683708940,,"wq!"
+|2,0,1683815526,,"wq!"
 :q!
 |2,0,1683700168,,"q!"
 :wq
@@ -208,34 +208,44 @@ $
 |3,1,36,0,1,0,1683696306,":"
 
 # File marks:
-'0  1  0  ~/dynamic-inventory-test/inventory.py
-|4,48,1,0,1683814495,"~/dynamic-inventory-test/inventory.py"
-'1  1  7  ~/vault-test/vault_pass.txt
-|4,49,1,7,1683708940,"~/vault-test/vault_pass.txt"
-'2  6  10  ~/vault-test/playbooks.yml
-|4,50,6,10,1683708557,"~/vault-test/playbooks.yml"
-'3  8  39  ~/templating-test/playbooks.yml
-|4,51,8,39,1683702099,"~/templating-test/playbooks.yml"
-'4  3  33  ~/seperate_roles/inventory.txt
-|4,52,3,33,1683700245,"~/seperate_roles/inventory.txt"
-'5  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
-|4,53,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
-'6  12  4  ~/error_handling-test/playbooks.yml
-|4,54,12,4,1683699931,"~/error_handling-test/playbooks.yml"
-'7  7  8  ~/error_handling-test/playbooks.yml
-|4,55,7,8,1683699899,"~/error_handling-test/playbooks.yml"
+'0  24  36  ~/dynamic_inventory/inventory.py
+|4,48,24,36,1683815526,"~/dynamic_inventory/inventory.py"
+'1  1  0  ~/dynamic-inventory-test/inventory.py
+|4,49,1,0,1683814495,"~/dynamic-inventory-test/inventory.py"
+'2  1  7  ~/vault-test/vault_pass.txt
+|4,50,1,7,1683708940,"~/vault-test/vault_pass.txt"
+'3  6  10  ~/vault-test/playbooks.yml
+|4,51,6,10,1683708557,"~/vault-test/playbooks.yml"
+'4  8  39  ~/templating-test/playbooks.yml
+|4,52,8,39,1683702099,"~/templating-test/playbooks.yml"
+'5  3  33  ~/seperate_roles/inventory.txt
+|4,53,3,33,1683700245,"~/seperate_roles/inventory.txt"
+'6  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
+|4,54,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
+'7  12  4  ~/error_handling-test/playbooks.yml
+|4,55,12,4,1683699931,"~/error_handling-test/playbooks.yml"
 '8  7  8  ~/error_handling-test/playbooks.yml
 |4,56,7,8,1683699899,"~/error_handling-test/playbooks.yml"
-'9  12  8  ~/error_handling-test/playbooks.yml
-|4,57,12,8,1683699876,"~/error_handling-test/playbooks.yml"
+'9  7  8  ~/error_handling-test/playbooks.yml
+|4,57,7,8,1683699899,"~/error_handling-test/playbooks.yml"
 
 # Jumplist (newest first):
+-'  24  36  ~/dynamic_inventory/inventory.py
+|4,39,24,36,1683815526,"~/dynamic_inventory/inventory.py"
+-'  1  0  ~/dynamic_inventory/inventory.py
+|4,39,1,0,1683815287,"~/dynamic_inventory/inventory.py"
+-'  1  0  ~/dynamic-inventory-test/inventory.py
+|4,39,1,0,1683814495,"~/dynamic-inventory-test/inventory.py"
 -'  1  0  ~/dynamic-inventory-test/inventory.py
 |4,39,1,0,1683814495,"~/dynamic-inventory-test/inventory.py"
 -'  1  7  ~/vault-test/vault_pass.txt
 |4,39,1,7,1683708940,"~/vault-test/vault_pass.txt"
 -'  1  7  ~/vault-test/vault_pass.txt
 |4,39,1,7,1683708940,"~/vault-test/vault_pass.txt"
+-'  1  7  ~/vault-test/vault_pass.txt
+|4,39,1,7,1683708940,"~/vault-test/vault_pass.txt"
+-'  1  7  ~/vault-test/vault_pass.txt
+|4,39,1,7,1683708940,"~/vault-test/vault_pass.txt"
 -'  6  10  ~/vault-test/playbooks.yml
 |4,39,6,10,1683708557,"~/vault-test/playbooks.yml"
 -'  6  10  ~/vault-test/playbooks.yml
@@ -244,6 +254,22 @@ $
 |4,39,6,10,1683708557,"~/vault-test/playbooks.yml"
 -'  6  10  ~/vault-test/playbooks.yml
 |4,39,6,10,1683708557,"~/vault-test/playbooks.yml"
+-'  6  10  ~/vault-test/playbooks.yml
+|4,39,6,10,1683708557,"~/vault-test/playbooks.yml"
+-'  6  10  ~/vault-test/playbooks.yml
+|4,39,6,10,1683708557,"~/vault-test/playbooks.yml"
+-'  6  10  ~/vault-test/playbooks.yml
+|4,39,6,10,1683708557,"~/vault-test/playbooks.yml"
+-'  6  10  ~/vault-test/playbooks.yml
+|4,39,6,10,1683708557,"~/vault-test/playbooks.yml"
+-'  1  0  ~/vault-test/playbooks.yml
+|4,39,1,0,1683708530,"~/vault-test/playbooks.yml"
+-'  1  0  ~/vault-test/playbooks.yml
+|4,39,1,0,1683708530,"~/vault-test/playbooks.yml"
+-'  1  0  ~/vault-test/playbooks.yml
+|4,39,1,0,1683708530,"~/vault-test/playbooks.yml"
+-'  1  0  ~/vault-test/playbooks.yml
+|4,39,1,0,1683708530,"~/vault-test/playbooks.yml"
 -'  1  0  ~/vault-test/playbooks.yml
 |4,39,1,0,1683708530,"~/vault-test/playbooks.yml"
 -'  1  0  ~/vault-test/playbooks.yml
@@ -268,6 +294,38 @@ $
 |4,39,8,39,1683702099,"~/templating-test/playbooks.yml"
 -'  8  39  ~/templating-test/playbooks.yml
 |4,39,8,39,1683702099,"~/templating-test/playbooks.yml"
+-'  8  39  ~/templating-test/playbooks.yml
+|4,39,8,39,1683702099,"~/templating-test/playbooks.yml"
+-'  8  39  ~/templating-test/playbooks.yml
+|4,39,8,39,1683702099,"~/templating-test/playbooks.yml"
+-'  8  39  ~/templating-test/playbooks.yml
+|4,39,8,39,1683702099,"~/templating-test/playbooks.yml"
+-'  8  39  ~/templating-test/playbooks.yml
+|4,39,8,39,1683702099,"~/templating-test/playbooks.yml"
+-'  8  39  ~/templating-test/playbooks.yml
+|4,39,8,39,1683702099,"~/templating-test/playbooks.yml"
+-'  8  39  ~/templating-test/playbooks.yml
+|4,39,8,39,1683702099,"~/templating-test/playbooks.yml"
+-'  8  39  ~/templating-test/playbooks.yml
+|4,39,8,39,1683702099,"~/templating-test/playbooks.yml"
+-'  8  39  ~/templating-test/playbooks.yml
+|4,39,8,39,1683702099,"~/templating-test/playbooks.yml"
+-'  1  0  ~/templating-test/playbooks.yml
+|4,39,1,0,1683702039,"~/templating-test/playbooks.yml"
+-'  1  0  ~/templating-test/playbooks.yml
+|4,39,1,0,1683702039,"~/templating-test/playbooks.yml"
+-'  1  0  ~/templating-test/playbooks.yml
+|4,39,1,0,1683702039,"~/templating-test/playbooks.yml"
+-'  1  0  ~/templating-test/playbooks.yml
+|4,39,1,0,1683702039,"~/templating-test/playbooks.yml"
+-'  1  0  ~/templating-test/playbooks.yml
+|4,39,1,0,1683702039,"~/templating-test/playbooks.yml"
+-'  1  0  ~/templating-test/playbooks.yml
+|4,39,1,0,1683702039,"~/templating-test/playbooks.yml"
+-'  1  0  ~/templating-test/playbooks.yml
+|4,39,1,0,1683702039,"~/templating-test/playbooks.yml"
+-'  1  0  ~/templating-test/playbooks.yml
+|4,39,1,0,1683702039,"~/templating-test/playbooks.yml"
 -'  1  0  ~/templating-test/playbooks.yml
 |4,39,1,0,1683702039,"~/templating-test/playbooks.yml"
 -'  1  0  ~/templating-test/playbooks.yml
@@ -316,6 +374,38 @@ $
 |4,39,3,33,1683700245,"~/seperate_roles/inventory.txt"
 -'  3  33  ~/seperate_roles/inventory.txt
 |4,39,3,33,1683700245,"~/seperate_roles/inventory.txt"
+-'  3  33  ~/seperate_roles/inventory.txt
+|4,39,3,33,1683700245,"~/seperate_roles/inventory.txt"
+-'  3  33  ~/seperate_roles/inventory.txt
+|4,39,3,33,1683700245,"~/seperate_roles/inventory.txt"
+-'  3  33  ~/seperate_roles/inventory.txt
+|4,39,3,33,1683700245,"~/seperate_roles/inventory.txt"
+-'  3  33  ~/seperate_roles/inventory.txt
+|4,39,3,33,1683700245,"~/seperate_roles/inventory.txt"
+-'  3  33  ~/seperate_roles/inventory.txt
+|4,39,3,33,1683700245,"~/seperate_roles/inventory.txt"
+-'  3  33  ~/seperate_roles/inventory.txt
+|4,39,3,33,1683700245,"~/seperate_roles/inventory.txt"
+-'  3  33  ~/seperate_roles/inventory.txt
+|4,39,3,33,1683700245,"~/seperate_roles/inventory.txt"
+-'  3  33  ~/seperate_roles/inventory.txt
+|4,39,3,33,1683700245,"~/seperate_roles/inventory.txt"
+-'  3  33  ~/seperate_roles/inventory.txt
+|4,39,3,33,1683700245,"~/seperate_roles/inventory.txt"
+-'  3  33  ~/seperate_roles/inventory.txt
+|4,39,3,33,1683700245,"~/seperate_roles/inventory.txt"
+-'  3  33  ~/seperate_roles/inventory.txt
+|4,39,3,33,1683700245,"~/seperate_roles/inventory.txt"
+-'  3  33  ~/seperate_roles/inventory.txt
+|4,39,3,33,1683700245,"~/seperate_roles/inventory.txt"
+-'  3  33  ~/seperate_roles/inventory.txt
+|4,39,3,33,1683700245,"~/seperate_roles/inventory.txt"
+-'  3  33  ~/seperate_roles/inventory.txt
+|4,39,3,33,1683700245,"~/seperate_roles/inventory.txt"
+-'  3  33  ~/seperate_roles/inventory.txt
+|4,39,3,33,1683700245,"~/seperate_roles/inventory.txt"
+-'  3  33  ~/seperate_roles/inventory.txt
+|4,39,3,33,1683700245,"~/seperate_roles/inventory.txt"
 -'  1  0  ~/seperate_roles/inventory.txt
 |4,39,1,0,1683700212,"~/seperate_roles/inventory.txt"
 -'  1  0  ~/seperate_roles/inventory.txt
@@ -340,98 +430,28 @@ $
 |4,39,1,0,1683700212,"~/seperate_roles/inventory.txt"
 -'  1  0  ~/seperate_roles/inventory.txt
 |4,39,1,0,1683700212,"~/seperate_roles/inventory.txt"
--'  1  0  ~/seperate_roles/inventory.txt
-|4,39,1,0,1683700212,"~/seperate_roles/inventory.txt"
--'  1  0  ~/seperate_roles/inventory.txt
-|4,39,1,0,1683700212,"~/seperate_roles/inventory.txt"
--'  1  0  ~/seperate_roles/inventory.txt
-|4,39,1,0,1683700212,"~/seperate_roles/inventory.txt"
--'  1  0  ~/seperate_roles/inventory.txt
-|4,39,1,0,1683700212,"~/seperate_roles/inventory.txt"
--'  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
-|4,39,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
--'  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
-|4,39,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
--'  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
-|4,39,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
--'  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
-|4,39,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
--'  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
-|4,39,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
--'  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
-|4,39,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
--'  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
-|4,39,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
--'  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
-|4,39,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
--'  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
-|4,39,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
--'  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
-|4,39,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
--'  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
-|4,39,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
--'  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
-|4,39,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
--'  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
-|4,39,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
--'  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
-|4,39,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
--'  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
-|4,39,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
--'  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
-|4,39,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
--'  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
-|4,39,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
--'  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
-|4,39,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
--'  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
-|4,39,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
--'  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
-|4,39,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
--'  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
-|4,39,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
--'  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
-|4,39,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
--'  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
-|4,39,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
--'  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
-|4,39,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
--'  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
-|4,39,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
--'  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
-|4,39,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
--'  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
-|4,39,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
--'  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
-|4,39,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
--'  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
-|4,39,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
--'  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
-|4,39,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
--'  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
-|4,39,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
--'  29  19  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
-|4,39,29,19,1683700168,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
--'  1  0  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
-|4,39,1,0,1683700142,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
--'  1  0  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
-|4,39,1,0,1683700142,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
--'  1  0  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
-|4,39,1,0,1683700142,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
--'  1  0  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
-|4,39,1,0,1683700142,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
--'  1  0  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
-|4,39,1,0,1683700142,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
--'  1  0  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
-|4,39,1,0,1683700142,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
--'  1  0  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
-|4,39,1,0,1683700142,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
--'  1  0  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
-|4,39,1,0,1683700142,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
--'  1  0  ~/seperate_roles/roles/mariadb_db/tasks/main.yml
-|4,39,1,0,1683700142,"~/seperate_roles/roles/mariadb_db/tasks/main.yml"
 
 # History of marks within files (newest to oldest):
+
+> ~/dynamic_inventory/inventory.py
+	*	1683815523	0
+	"	24	36
+	^	24	37
+	.	24	36
+	+	6	12
+	+	19	12
+	+	7	25
+	+	12	0
+	+	9	25
+	+	11	0
+	+	10	41
+	+	13	20
+	+	18	0
+	+	15	25
+	+	17	0
+	+	16	72
+	+	10	53
+	+	24	36
 
 > ~/dynamic-inventory-test/inventory.py
 	*	1683814193	0
@@ -601,10 +621,3 @@ $
 	^	21	49
 	.	21	48
 	+	21	48
-
-> ~/role-test/roles/firewalld/tasks/main.yml
-	*	1683618180	0
-	"	13	30
-	^	13	31
-	.	13	21
-	+	13	21
