@@ -1,0 +1,12 @@
+target1 ansible_host=18.181.244.254
+target2 ansible_host=54.199.218.230 
+mariadb1 ansible_host=ec2-43-207-220-203.ap-northeast-1.compute.amazonaws.com
+
+[nodes:vars]
+ansible_user=ec2-user 
+ansible_ssh_private_key_file=/home/ec2-user/keypair/ansible_key.pem
+
+[nodes]
+target1
+target2
+mariadb1
